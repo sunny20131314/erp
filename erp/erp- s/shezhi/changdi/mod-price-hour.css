@@ -1,0 +1,136 @@
+/*.mod-price-hour*/
+.mod-price-hour{
+    display: none;
+    width: 450px;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    font-size: 14px;
+}
+.mod-price-hour a{
+    color: #000;
+}
+.mod-price-hour .header{
+    height: 38px;
+    line-height: 38px;
+    padding: 0 5px;
+    background-color: #ededed;
+
+}
+.mod-price-hour .header .crumb{
+    padding-left: 10px;
+}
+.mod-price-hour .header .close{
+    float: right;
+    width: 28px;
+    height: 28px;
+    margin-top: 5px;
+    background: url("../../img/close.png");
+}
+.mod-price-hour .content{
+    padding: 10px 0 20px;
+}
+.mod-price-hour .cards{
+    height: 380px;
+    overflow: scroll;
+}
+.mod-price-hour .cards .item{
+    position: relative;
+    float: left;
+    width: 450px;
+    height: 190px;
+}
+.mod-price-hour .cards .row{
+    height: 26px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.mod-price-hour .cards .no{
+    height: 16px;
+    padding-left: 45px;
+    margin-bottom: 10px;
+    line-height: 16px;
+    color: #22b5d0;
+
+}
+.mod-price-hour .cards .row-title{
+    float: left;
+    width: 94px;
+    height: 26px;
+    line-height: 26px;
+    padding-right: 10px;
+    text-align: right;
+}
+.mod-price-hour .cards .row-content{
+    float: left;
+}
+.mod-price-hour .cards input{
+    float: left;
+    width: 108px;
+    height: 24px;
+    padding: 0 10px;
+    line-height: 24px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.mod-price-hour .cards .small-row{
+    float: left;
+    width: 165px;
+}
+.mod-price-hour .small-row input{
+    width: 39px;
+}
+.mod-price-hour .cards select{
+    box-sizing: border-box;
+    float: left;
+    width: 130px;
+    height: 26px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    line-height: 24px;
+    margin-right: 22px;
+}
+.mod-price-hour .cards span.divider{
+    float: left;
+    width: 22px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+}
+.mod-price-hour .cards a{
+    position: absolute;
+    right: 30px;
+    width: 20px;
+    height: 20px;
+}
+.mod-price-hour .cards .plus{
+    bottom: 15px;
+    background: url("../../img/mem-plus.png");
+}
+.mod-price-hour .cards .minus{
+    bottom: 50px;
+    background: url("../../img/mem-minus.png");
+}
+.mod-price-hour .btn{
+    display: inline-block;
+    width: 155px;
+    height: 38px;
+    margin: 15px auto 0 113px;
+    background-color: #22b5d0;
+    border-radius: 19px;
+    color: #fff;
+    text-align: center;
+    line-height: 38px;
+    box-shadow: 0 2px 1px 1px #188ea2;
+    text-decoration: none;
+}
+.mod-price-hour .btn:hover{
+    color: #fff !important;
+}
+
+
+
+

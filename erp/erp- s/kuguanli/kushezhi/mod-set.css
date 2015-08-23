@@ -1,0 +1,450 @@
+/*商品设置新增*/
+.mod-set{
+    display: none;
+    width:340px;
+    height:auto;
+    border:1px solid #000;
+    border-radius: 10px;
+    overflow: hidden;
+    color:#000;
+    background:#fff;
+    font-size: 15px;
+}
+.mod-set .header{
+    width:340px;
+    height: 38px;
+    background:#ededed;
+    line-height: 38px;
+}
+.mod-set .header .crumb{
+    float:left;
+    margin-left:14px;
+}
+.mod-set .header .close{
+    float: right;
+    width: 28px;
+    height: 28px;
+    margin-top: 5px;
+    margin-right: 5px;
+    background: url("../../img/close.png");
+}
+.mod-set .content {
+    width: 272px;
+    height:auto;
+    overflow: hidden;
+    color: #000;
+    background: #fff;
+    padding:20px 36px 0 32px;
+}
+.mod-set .content span{
+    float:left;
+    width:60px;
+    margin-right:10px;
+}
+.mod-set .content .name,
+.mod-set .content .type,
+.mod-set .content .unit{
+    width:272px;
+    height:26px;
+    line-height:26px;
+    margin-bottom: 16px;
+}
+.mod-set .content .name input{
+    width:176px;
+    height:24px;
+    line-height: 24px;
+    float:left;
+    padding:0 12px;
+    font-size:12px;
+    border:1px solid #000;
+    border-radius: 4px;
+}
+.mod-set .content .type select,
+.mod-set .content .unit select{
+    display: inline-block;
+    width:152px;
+    height:26px;
+    line-height:26px;
+    padding-left: 12px;
+    border:1px solid #000;
+}
+.mod-set .content .type .type-set,
+.mod-set .content .unit .unit-set{
+    width:34px;
+    height:26px;
+    line-height:26px;
+    border:1px solid #000;
+    border-radius:4px;
+    background:#dedede;
+    font-size:12px;
+    text-align:center;
+    float:right;
+    cursor:pointer;
+}
+.mod-set .content .price{
+    width:272px;
+    height:auto;
+    line-height:26px;
+    margin-bottom: 16px;
+}
+.mod-set .content .price .right{
+    float:left;
+    width:152px;
+    height:auto;
+    line-height:26px;
+}
+.mod-set .content .price .right .cost,
+.mod-set .content .price .right .sale,
+.mod-set .content .price .right .carry-out{
+    width:150px;
+    height:24px;
+    line-height: 24px;
+    border:1px solid #000;
+    border-radius: 4px;
+    overflow:hidden;
+    margin-bottom:16px;
+}
+.mod-set .content .price .right span{
+    width:37px;
+    height:24px;
+    line-height: 24px;
+    text-align:center;
+    border-right:1px solid #000;
+    margin:0;
+    float:left;
+}
+.mod-set .content .price .right input{
+    float:left;
+    width:88px;
+    height:24px;
+    line-height: 24px;
+    border:none;
+    padding:0 12px;
+}
+.mod-set .footer{
+    width:308px;
+    height:auto;
+    padding-left:32px;
+}
+.mod-set .footer .pic span{
+    float:left;
+    width:60px;
+    margin-right:10px;
+    height:26px;
+    line-height: 26px;
+}
+.mod-set .footer .pic .detail{
+    width:210px;
+    height:50px;
+    border:1px solid #dedede;
+    float:left;
+    margin-bottom: 22px;
+}
+.mod-set .footer .pic .detail span{
+    width:60px;
+    float:left;
+    margin-top:12px ;
+    margin-left:16px;
+    height:15px;
+    line-height:15px;
+}
+.mod-set .footer .pic .detail .edit{
+    width:56px;
+    height:32px;
+    border:1px solid #000;
+    background:#dedede;
+    float:right;
+    margin-top:9px;
+    margin-right:8px;
+    cursor:pointer;
+}
+.mod-set .footer .commodity-detail{
+    display: block;
+    width: 168px;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 12px;
+    border:1px solid #000000;
+    font-size: 15px;
+    overflow: hidden;
+    margin-bottom: 14px;
+    margin-left:68px;
+}
+.mod-set .footer .commodity-detail a{
+    width:84px;
+    float:left;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    background:#ededed;
+    color:#999999;
+    cursor:pointer;
+}
+.mod-set .footer .commodity-detail .selected{
+    color:#fff;
+    background:#000;
+}
+.mod-set .footer .btn{
+    display: block;
+    width: 170px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    box-shadow: 0 2px 1px 1px #188ea2;
+    background-color: #29bcd7;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 24px;
+    margin-left:68px;
+    cursor:pointer;
+}
+
+
+/*type-edit*/
+.mod-type-edit{
+    display:none;
+    width:292px;
+    height:auto;
+    overflow:hidden;
+    border:1px solid #000000;
+    border-radius: 10px;
+    background:#ededed;
+    color:#000;
+    font-size: 12px;
+}
+.mod-type-edit .header{
+    width:292px;
+    height: 38px;
+    background:#ededed;
+    line-height: 38px;
+}
+.mod-type-edit .header .close{
+    float: right;
+    width: 28px;
+    height: 28px;
+    margin-top: 5px;
+    margin-right: 5px;
+    background: url("../../img/close.png");
+}
+.mod-type-edit .content {
+    width: 292px;
+    height:auto;
+    margin-top:10px;
+    margin-bottom: 56px;
+}
+.mod-type-edit .content .contain{
+    width:200px;
+    height:auto;
+    margin-left:64px;
+}
+.mod-type-edit .content .contain .item{
+    float:left;
+    width:auto;
+    height:18px;
+    line-height: 18px;
+    margin-bottom:18px;
+    margin-right: 5px;
+}
+.mod-type-edit .content .contain .name{
+    width:auto;
+    height:18px;
+    float:left;
+}
+.mod-type-edit .content .contain .item:hover .pic{
+    visibility: visible;
+}
+.mod-type-edit .content .contain .pic{
+    visibility:hidden ;
+    float:left;
+    width:18px;
+    height:18px;
+    background:url("../../img/close-grey.png") no-repeat 5px 5px;
+    cursor:pointer;
+}
+.mod-type-edit .content .add{
+    display: block;
+    width:186px;
+    margin-left:60px;
+    height:30px;
+    line-height: 30px;
+    border:1px solid #000000;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.mod-type-edit .content .add input{
+    width:114px;
+    height:30px;
+    line-height: 30px;
+    padding:0 8px;
+    border:none;
+}
+.mod-type-edit .content .add .add-type{
+    width:56px;
+    height:30px;
+    line-height: 30px;
+    border:none;
+    border-left:1px solid #000000;
+    text-align:center;
+    float:right;
+    cursor:pointer;
+}
+
+/*unit-edit*/
+.mod-unit-edit{
+    display:none;
+    width:292px;
+    height:auto;
+    overflow:hidden;
+    border:1px solid #000000;
+    border-radius: 10px;
+    background:#ededed;
+    color:#000;
+    font-size: 12px;
+}
+.mod-unit-edit .header{
+    width:292px;
+    height: 38px;
+    background:#ededed;
+    line-height: 38px;
+}
+.mod-unit-edit .header .close{
+    float: right;
+    width: 28px;
+    height: 28px;
+    margin-top: 5px;
+    margin-right: 5px;
+    background: url("../../img/close.png");
+}
+.mod-unit-edit .content {
+    width: 292px;
+    height:auto;
+    margin-top:10px;
+    margin-bottom: 56px;
+}
+.mod-unit-edit .content .contain{
+    width:200px;
+    height:auto;
+    margin-left:64px;
+}
+ .content .contain span{
+    float:left;
+    width:auto;
+    line-height: 18px;
+}
+.mod-unit-edit .content .contain .name{
+    width:auto;
+    height:18px;
+    float:left;
+    margin-bottom:18px;
+}
+.mod-unit-edit .content .contain .item:hover .pic{
+    visibility:visible;
+}
+.mod-unit-edit .content .contain .pic{
+    visibility:hidden ;
+    float:left;
+    width:18px;
+    height:18px;
+    background:url("../../img/close-grey.png") no-repeat 5px 5px;
+    cursor:pointer;
+}
+.mod-unit-edit .content .add{
+    display: block;
+    width:186px;
+    margin-left:60px;
+    height:30px;
+    line-height: 30px;
+    border:1px solid #000000;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.mod-unit-edit .content .add input{
+    width:114px;
+    height:30px;
+    line-height: 30px;
+    padding:0 8px;
+    border:none;
+}
+.mod-unit-edit .content .add .add-unit{
+    width:56px;
+    height:30px;
+    line-height: 30px;
+    border:none;
+    border-left:1px solid #000000;
+    text-align:center;
+    float:right;
+    cursor:pointer;
+}
+
+
+
+/*编辑*/
+.mod-member-edit{
+    display: none;
+    width:342px;
+    font-size: 15px;
+    background-color: #fff;
+    border:1px solid #000;
+    border-radius: 10px;
+    overflow:hidden;
+}
+.mod-member-edit .header{
+    width:332px;
+    padding:5px;
+    height: 28px;
+    line-height: 28px;
+    background-color: #ededed;
+}
+.mod-member-edit .header .close{
+    float: right;
+    width: 28px;
+    height: 28px;
+    background: url("../../img/close.png");
+}
+.mod-member-edit .content {
+    width: 342px;
+    margin: 0 auto;
+}
+.mod-member-edit .content .pict{
+    width:120px;
+    height:120px;
+    margin:32px auto;
+}
+.mod-member-edit .content .photo {
+    width:241px;
+    height:240px;
+    margin:0 auto;
+}
+.mod-member-edit .content .take-photo{
+    width:241px;
+    height:35px;
+    margin:0 auto;
+    display: block;
+    border:none;
+    border-bottom: 1px solid #000000;
+    background-color: #535353;
+    color:#fff;
+    font-size: 15px;
+}
+.mod-member-edit .btn{
+    width: 168px;
+    display: block;
+    margin:38px auto 20px;
+    height: 39px;
+    line-height: 39px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 2px 1px 1px #188ea2;
+    background-color: #29bcd7;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+

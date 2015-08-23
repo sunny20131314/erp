@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>场地设置</title>
+    <link rel="stylesheet" href="../../lib/css/reset.css"/>
+    <script src="../../lib/js/require.min.js"></script>
+
+    <!--日历的样式-->
+    <!--日历组件地址：http://plugins.jquery.com/pickadate/-->
+    <link rel="stylesheet" href="../../lib/datetimepicker/themes/classic.css"/>
+    <link rel="stylesheet" href="../../lib/datetimepicker/themes/classic.date.css"/>
+
+    <!--demo js-->
+    <script src="demo.js"></script>
+</head>
+<body>
+
+    <!--用来演示的 demo start-->
+    <button class="demo-place-edit">新增/修改场地</button>
+    <button class="demo-price-hour">设置价格（小时制）</button>
+    <button class="demo-price-ticket">设置价格（门票制）</button>
+    <!--用来演示的 demo end-->
+
+
+
+    <!--新增/修改场地 start-->
+    <link rel="stylesheet" href="mod-place-edit.css"/>
+    <div class="mod-place-edit">
+        <div class="header">
+            <span class="crumb">场地>>编辑</span>
+            <a class="close" href="#" ></a>
+        </div>
+        <div class="content">
+            <div class="row fd-clr name">
+                <span class="row-title">名&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;称</span>
+                <div class="row-content">
+                    <input type="text"/>
+                </div>
+            </div>
+            <div class="row fd-clr">
+                <span class="row-title">运动属性</span>
+                <div class="row-content">
+                    <div class="sel-wrap">
+                        <select>
+                            <option value="0">请选择运动类型</option>
+                            <option value="0">运动类型1</option>
+                            <option value="0">运动类型2</option>
+                        </select>
+                    </div>
+                    <div class="sel-wrap">
+                        <select>
+                            <option value="0">请选择运动项目</option>
+                            <option value="0">运动项目1</option>
+                            <option value="0">运动项目2</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row fd-clr period">
+                <span class="row-title">开放时间</span>
+                <div class="row-content">
+                    <input type="text" placeholder="起始时间" class="period-begin time-picker"/>
+                    <span>-</span>
+                    <input type="text" placeholder="结束时间" class="period-end time-picker"/>
+                </div>
+            </div>
+            <div class="row fd-clr radio">
+                <span class="row-title">运动地点</span>
+                <div class="row-content">
+                    <span>室内</span><span>室外</span>
+                </div>
+            </div>
+            <div class="row fd-clr radio">
+                <span class="row-title">收费方式</span>
+                <div class="row-content">
+                    <span class="hour">时段制</span>
+                    <span class="ticket">门票制</span>
+                    <input type="text" class="disabled" disabled placeholder="最大容纳人数"/>
+                </div>
+            </div>
+            <div class="row fd-clr service">
+                <span class="row-title">场地服务</span>
+                <div class="row-content">
+                    <ul class="fd-clr">
+                        <li><input type="checkbox"/><span>停车停车</span></li>
+                        <li><input type="checkbox"/><span>停车停车</span></li>
+                        <li><input type="checkbox"/><span>停车停车</span></li>
+                        <li><input type="checkbox"/><span>停车停车</span></li>
+                        <li><input type="checkbox"/><span>停车停车</span></li>
+                        <li><input type="checkbox"/><span>停车停车</span></li>
+                        <li><input type="checkbox"/><span>停车停车</span></li>
+                        <li><input type="checkbox"/><span>停车停车</span></li>
+                        <li><input type="checkbox"/><span>停车停车</span></li>
+                        <li><input type="checkbox"/><span>停车停车</span></li>
+                        <li><input type="checkbox"/><span>停车停车</span></li>
+                        <li><input type="checkbox"/><span>停车停车</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row fd-clr">
+                <span class="row-title">备&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;注</span>
+                <div class="row-content">
+                    <textarea ></textarea>
+                </div>
+            </div>
+            <a href="#" class="btn">保存</a>
+        </div>
+    </div>
+    <!--新增/修改场地 end-->
+
+</body>
+</html>

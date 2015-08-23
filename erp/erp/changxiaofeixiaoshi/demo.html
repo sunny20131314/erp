@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>场消费_小时_杂</title>
+    <link rel="stylesheet" href="../lib/css/reset.css"/>
+    <script src="../lib/js/require.min.js"></script>
+    <script src="./demo.js"></script>
+
+    <!--公共： 金额编辑的弹层样式-->
+    <link rel="stylesheet" href="../common/css/mod-money-msg.css"/>
+</head>
+<body>
+    <!--demo start-->
+    <button class="demo-recharge">场消费_小时_充值</button>
+    <button class="demo-more">场消费_小时_更多</button>
+    <button class="demo-ticket">场消费_小时_体验券</button>
+    <!--demo end-->
+
+
+    <!--充值 start-->
+    <link rel="stylesheet" href="mod-recharge.css"/>
+    <div class="mod-recharge">
+        <div class="header">
+            <span class="crumb">会员卡>>充值</span>
+            <a class="close" href="#" ></a>
+        </div>
+        <div class="content">
+            <div class="scan">
+                <input type="text" placeholder="支持扫描读卡器"/>
+                <button></button>
+            </div>
+            <div class="user-info fd-clr for-member-card">
+                <ul class="txt-info fd-clr">
+                    <li class="name">
+                        <span class="title">姓名/手机</span>
+                        <span class="value" ><em>司徒长了</em>-15088562598</span>
+                    </li>
+                    <li class="money-left">
+                        <span class="title">余额</span>
+                        <span class="value">2500.00</span>
+                    </li>
+                    <li>
+                        <span class="title">有效期</span>
+                        <span class="value">2015.5.1-2015.5.1(有效)</span>
+                    </li>
+                </ul>
+                <div class="pic">
+                    <img src="../img/pic.png" alt="" width="125" height="155"/>
+                </div>
+            </div>
+            <div class="recharge">
+                <input type="text" placeholder="请输入充值金额" />
+                <button>充值</button>
+            </div>
+            <div class="pay-src fd-clr">
+                <ul class="pay-type">
+                    <li class="selected cash">现金</li>
+                    <li class="card">刷卡</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--充值 end-->
+
+    <!--更多 start-->
+    <link rel="stylesheet" href="mod-more.css"/>
+    <div class="mod-more">
+        <div class="header">
+            <span class="crumb">场地>>更多操作</span>
+            <span class="type">羽毛球-</span>
+            <select name="place-num">
+                <option value="01" selected>01场地</option>
+                <option value="02">02场地</option>
+                <option value="03">03场地</option>
+            </select>
+            <select name="hand-card" class="hand-card">
+                <option value="0" selected>请选择手牌</option>
+                <option value="1">手牌1</option>
+                <option value="2">手牌2</option>
+            </select>
+            <a class="close" href="#" ></a>
+        </div>
+        <div class="content">
+            <div class="area">
+                <span class="label">请选择置换场地</span>
+                <select name="place" class="place">
+                    <option value="1">01场地</option>
+                    <option value="2" selected >02场地</option>
+                    <option value="3">03场地</option>
+                </select>
+                <button class="change-place">换场 </button>
+            </div>
+            <div class="exit">
+                 <span class="tips">提示信息：无法退场，已经超过时限</span>
+                 <button class="return-place">退场</button>
+            </div>
+        </div>
+    </div>
+    <!--更多 end-->
+
+
+    <!--体验券 start-->
+    <link rel="stylesheet" href="mod-ticket.css"/>
+    <div class="mod-ticket">
+        <div class="header">
+            <span class="crumb">场地>>体验券</span>
+            <span class="type">羽毛球-</span>
+            <select name="place-num">
+                <option value="01" selected>01场地</option>
+                <option value="02">02场地</option>
+                <option value="03">03场地</option>
+            </select>
+            <select name="hand-card" class="hand-card" >
+                <option value="0" selected>请选择手牌</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+            </select>
+            <a class="close" href="#" ></a>
+        </div>
+        <div class="content">
+            <div class="fd-clr">
+                <div class="scan">
+                    <input type="text" placeholder="支持扫描读卡器"/>
+                    <button></button>
+                </div>
+                <span class="tips">查询结果为空!</span>
+            </div>
+            <div class="info fd-clr">
+                <ul class="txt-info ">
+                    <li class=>
+                        <span class="title">姓名</span>
+                        <span class="value" >羽毛球个人体验券1小时</span>
+                    </li>
+                    <li class="money">
+                        <span class="title">金额</span>
+                        <span class="value">60.00</span>
+                    </li>
+                    <li>
+                        <span class="title">有效期</span>
+                        <span class="value">2015.5.1-2015.5.1(有效)</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="time">
+                <ul class="time-list fd-clr">
+                    <li>08:00-09:00</li>
+                    <li>09:00-10:00</li>
+                    <li>10:00-11:00</li>
+                    <li>18:00-19:00</li>
+                    <li>12:00-13:00</li>
+                    <li>13:00-14:00</li>
+                    <li>14:00-15:00</li>
+                    <li>18:00-19:00</li>
+                    <li>16:00-17:00</li>
+                    <li>17:00-18:00</li>
+                    <li>18:00-19:00</li>
+                    <li>18:00-19:00</li>
+                </ul>
+            </div>
+            <div class="input">
+                <input type="text" placeholder="请输入手机号"/>
+            </div>
+        </div>
+        <div class="footer fd-clr">
+            <span class="label">支付金额：</span>
+            <span class="money">￥</span>
+                <input type="text" value="60.00"/>
+            <a class="edit" href="#"></a>
+            <a class="start">开场</a>
+        </div>
+    </div>
+    <!--体验券 end-->
+
+    <!--金额编辑弹层-->
+    <div class="mod-money-msg" id="msg-for-consume">
+        <div class="header">
+            <span class="crumb">修改备注</span>
+            <a class="close" href="#" ></a>
+        </div>
+        <div class="content">
+            <textarea name="" placeholder="请输入修改备注"></textarea>
+            <button class="btn">保存</button>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,123 @@
+/*.mod-member-card*/
+.mod-member-card{
+    display: none;
+    width: 370px;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    font-size: 14px;
+}
+.mod-member-card a{
+    color: #000;
+}
+.mod-member-card .header{
+    height: 38px;
+    line-height: 38px;
+    padding: 0 5px;
+    background-color: #ededed;
+
+}
+.mod-member-card .header .crumb{
+    padding-left: 10px;
+}
+.mod-member-card .header .close{
+    float: right;
+    width: 28px;
+    height: 28px;
+    margin-top: 5px;
+    background: url("../../../img/close.png");
+}
+.mod-member-card .content{
+    padding: 10px 0 20px;
+}
+.mod-member-card .cards{
+    height: 380px;
+    overflow: scroll;
+}
+.mod-member-card .cards li{
+    position: relative;
+    float: left;
+    width: 370px;
+    height: 190px;
+}
+.mod-member-card .cards .row{
+    height: 26px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.mod-member-card .cards .no{
+    height: 16px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    line-height: 16px;
+    color: #22b5d0;
+
+}
+.mod-member-card .cards .row-title{
+    float: left;
+    width: 70px;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 15px;
+    text-align: left;
+}
+.mod-member-card .cards input{
+    float: left;
+    width: 108px;
+    height: 24px;
+    padding: 0 10px;
+    line-height: 24px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.mod-member-card .cards select{
+    box-sizing: border-box;
+    float: left;
+    width: 128px;
+    height: 26px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.mod-member-card .cards .small-row{
+    float: left;
+    width: 150px;
+}
+.mod-member-card .small-row input{
+    width: 40px;
+}
+.mod-member-card .cards a{
+    position: absolute;
+    right: 30px;
+    width: 20px;
+    height: 20px;
+}
+.mod-member-card .cards .plus{
+    bottom: 15px;
+    background: url("../../../img/mem-plus.png");
+}
+.mod-member-card .cards .minus{
+    bottom: 50px;
+    background: url("../../../img/mem-minus.png");
+}
+.mod-member-card .btn{
+    display: inline-block;
+    width: 155px;
+    height: 38px;
+    margin: 15px auto 0 113px;
+    background-color: #22b5d0;
+    border-radius: 19px;
+    color: #fff;
+    text-align: center;
+    line-height: 38px;
+    box-shadow: 0 2px 1px 1px #188ea2;
+    text-decoration: none;
+}
+.mod-member-card .btn:hover{
+    color: #fff !important;
+}
+
+
+
+

@@ -1,0 +1,368 @@
+/*.mod-venue-info*/
+.mod-venue-info{
+    width: 1000px;
+    margin: 0 auto;
+    color: #000;
+    background-color: #ededed;
+    overflow: hidden;
+}
+.mod-venue-info a{
+    color: #000;
+}
+.mod-venue-info .header{
+    height: 30px;
+    line-height: 30px;
+    padding: 10px 15px;
+    background-color: #fff;
+}
+.mod-venue-info .header span{
+    float: right;
+    height: 30px;
+}
+.mod-venue-info .header .check-msg{
+    float: left;
+    color: #b3b3b3;
+}
+.mod-venue-info .header .serv-btn{
+    float: right;
+    width: 68px;
+    height: 30px;
+    border-radius: 15px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: #fa6d08;
+    box-shadow: 0 2px 1px 1px #c25200;
+    text-align: center;
+}
+.mod-venue-info .header .tiyanquan{
+    background-color: #e70b54;
+    box-shadow: 0 2px 1px 1px #af003a;
+}
+
+.mod-venue-info .header .serv-btn:hover{
+    color: #fff !important;
+}
+.mod-venue-info .content{
+    width: 970px;
+    margin: 0 auto;
+    padding: 5px 0 15px;
+}
+.mod-venue-info .region{
+    padding-top: 15px;
+}
+.mod-venue-info .region-title{
+    height: 40px;
+    line-height: 40px;
+    color: #4d4d4d;
+    font-size: 18px;
+}
+.mod-venue-info .area-left{
+    float: left;
+    width: 696px;
+    height: 420px;
+    border: 1px solid #1fbad6;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.mod-venue-info .area-right{
+    float: right;
+    width: 268px;
+    height: 420px;
+    border: 1px solid #1fbad6;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.mod-venue-info .area-title{
+    padding: 6px 0 20px;
+    height: 30px;
+}
+.mod-venue-info .area-title .save{
+    float: right;
+    width: 62px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border: 3px solid #def5f9;
+    border-radius: 12px;
+    margin-right: 6px;
+    color: #1fbad6;
+    text-decoration: none;
+}
+.mod-venue-info .area-title .save:hover{
+    color: #1fbad6 !important;
+    background-color: #def5f9;
+}
+.mod-venue-info .area-title .save:active{
+    color: #fff !important;
+    background-color: #1fbad6;
+}
+
+.mod-venue-info .left-lines,
+.mod-venue-info .right-lines{
+    float: left;
+    width: 334px;
+}
+.mod-venue-info .row{
+    line-height: 32px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.mod-venue-info .row-title{
+    float: left;
+    width: 82px;
+    height: 32px;
+    padding-right: 6px;
+    text-align: right;
+}
+.mod-venue-info .row-content{
+    float: left;
+    width: 246px;
+    height: 32px;
+    overflow: hidden;
+}
+.mod-venue-info .row-content input{
+    width: 224px;
+    height: 30px;
+    padding: 0 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.mod-venue-info .mem{
+    height: 96px;
+}
+.mod-venue-info .mem .row-content{
+    height: 96px;
+}
+.mod-venue-info .mem .mem-cascade{
+    width: 249px;
+    margin-bottom: 7px;
+}
+.mod-venue-info .mem textarea,
+.mod-venue-info .service-row textarea{
+    width: 224px;
+    height: 32px;
+    padding: 10px;
+    line-height: 16px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    text-align: left;
+}
+.mod-venue-info .mem .mem-level{
+    float: left;
+    width: 78px;
+    height: 30px;
+    margin-right: 5px;
+    overflow: hidden;
+}
+.mod-venue-info .mem select{
+    float: left;
+    box-sizing: border-box;
+    width: 78px;
+    height: 30px;
+    margin: 0;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.mod-venue-info .service-row .row-content{
+    height: 54px;
+}
+/*运动项目 下拉start*/
+.mod-venue-info .item .row-content{
+    width: 244px;
+    height:auto;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.mod-venue-info .item .row-content .show-span{
+    width: 224px;
+    height: auto;
+    padding: 0 10px;
+}
+.mod-venue-info .item .row-content .show-span .height {
+    height:30px;
+    width:0;
+    float:left;
+}
+.mod-venue-info .item .row-content .contain{
+    width:236px;
+    height: 108px;
+    line-height: 24px;
+    margin:-4px 4px 0;
+    overflow:scroll;
+    border-top:1px solid #ededed;
+    color:#b3b3b3;
+    display:none;
+}
+.mod-venue-info .item .contain .main{
+    width:236px;
+    height:28px;
+    line-height: 28px;
+    overflow: hidden;
+    background:url("../../../img/plus-grey.png") no-repeat 7px 7px;
+}
+.mod-venue-info .item .contain .main:hover{
+    background-image: url("../../../img/plus-black.png");
+}
+.mod-venue-info .item .contain .main.clic{
+    background-image: url("../../../img/minus-black.png");
+
+}
+
+.mod-venue-info .item .contain .main span{
+    height:28px;
+    line-height: 28px;
+    padding-left:28px;
+    float:left;
+}
+.mod-venue-info .item .contain .detail {
+    width:182px;
+    line-height:20px;
+    padding:0 24px 0 30px;
+    display:none;
+}
+.mod-venue-info .item .contain .detail span {
+    float:left;
+    line-height:16px;
+    margin:0 4px 4px 0;
+    border: 1px solid #cccccc;
+    color:#cccccc;
+    padding:2px 3px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.mod-venue-info .item .contain .detail .selected{
+    border-color: #000;
+    color:#000;
+}
+.mod-venue-info .item .show-span .select{
+    float:left;
+    height:18px;
+    line-height: 18px;
+    width:auto;
+    border:1px solid #000;
+    padding-left: 3px;
+    margin:5px 4px;
+    border-radius: 3px;
+}
+.mod-venue-info .item .show-span .select .label{
+    float:left;
+    height:18px;
+    line-height: 18px;
+    width:auto;
+    color:#000;
+}
+.mod-venue-info .item .show-span .select .pic{
+    float:left;
+    width:18px;
+    height:18px;
+    background:url("../../../img/close-grey.png") no-repeat 5px 5px;
+    cursor: pointer;
+}
+.mod-venue-info .item .show-span .select:hover{
+    border-color:#1fbad6;
+}
+.mod-venue-info .item .show-span .select:hover .pic{
+    background-image:url("../../../img/close-green.png");
+}
+
+
+
+/*运动项目 下拉end*/
+.mod-venue-info .proportion input{
+    width: 58px;
+    padding: 0 10px;
+}
+.mod-venue-info .proportion .unit{
+    color: #ccc;
+    padding-left: 7px;
+}
+.mod-venue-info .intro .row-content{
+    height: 105px;
+}
+.mod-venue-info .intro textarea{
+    width: 224px;
+    height: 80px;
+    padding: 10px;
+    line-height: 16px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    text-align: left;
+}
+.mod-venue-info .region-quali .area-left,
+.mod-venue-info .region-quali .area-right{
+    height: auto;
+}
+.mod-venue-info .region-quali .area-left{
+    padding-bottom: 4px;
+}
+.mod-venue-info .reg-type select{
+    box-sizing: border-box;
+    float: left;
+    width: 162px;
+    height: 30px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.mod-venue-info .bank .account-no{
+    float: left;
+    width: 124px;
+}
+.mod-venue-info .bank .account-name{
+    float: left;
+    width: 54px;
+}
+.mod-venue-info .bank .row-content span{
+    float: left;
+    height: 32px;
+    width: 24px;
+    text-align: center;
+}
+
+.mod-venue-info .area-right .area-content{
+    width: 213px;
+    margin: 0 auto;
+}
+.mod-venue-info .area-right .name{
+    margin-bottom: 20px;
+}
+.mod-venue-info .area-right p{
+    margin-bottom: 45px;
+    line-height: 14px;
+    color: #ccc;
+}
+.mod-venue-info .area-right ul{
+    width: 226px;
+}
+.mod-venue-info .area-right li{
+    float: left;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    margin: 0 13px 13px 0;
+    cursor: pointer;
+}
+
+.mod-venue-info .region-btn .cm{
+    display: inline-block;
+    width: 286px;
+    height: 38px;
+    margin-left: 343px;
+    line-height: 38px;
+    text-align: center;
+    color: #fff;
+    background-color: #22b5d0;
+    border-radius: 19px;
+    box-shadow: 0 2px 1px 1px #188ea2;
+    text-decoration: none;
+}
+.mod-venue-info .region-btn .cm:hover{
+    color: #fff !important;
+}
+.mod-venue-info .region-btn span{
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+    color: #ccc;
+}

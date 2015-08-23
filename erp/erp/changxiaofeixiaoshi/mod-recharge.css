@@ -1,0 +1,159 @@
+/*   recharge   */
+.mod-recharge{
+    display: none;
+    width: 518px;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+}
+.mod-recharge a{
+    color: #000;
+}
+.mod-recharge .header{
+    height: 38px;
+    line-height: 38px;
+    padding: 0 5px;
+    background-color: #ededed;
+}
+.mod-recharge .header .crumb{
+    padding-left: 10px;
+    font-size: 15px;
+}
+.mod-recharge .header .close{
+    float: right;
+    width: 28px;
+    height: 28px;
+    margin-top: 5px;
+    background: url("../img/close.png");
+}
+.mod-recharge .content{
+    width: 400px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+.mod-recharge .content .scan{
+    width: 272px;
+    height: 17px;
+    padding: 7px;
+    margin: 17px auto 17px 56px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.mod-recharge .scan input{
+    float: left;
+    width: 255px;
+    height: 17px;
+    line-height: 17px;
+    border: none;
+}
+.mod-recharge .scan button{
+    float: left;
+    width: 17px;
+    height: 17px;
+    background: url("../img/search.png");
+    border: none;
+}
+.mod-recharge .user-info .txt-info{
+    float: left;
+    width: 270px;
+    height: 160px;
+}
+.mod-recharge .txt-info li{
+    float: left;
+    width: 270px;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 1px;
+    border-radius: 5px;
+    background-color: #ededed;
+    overflow: hidden;
+}
+.mod-recharge .txt-info span{
+    float: left;
+    display: block;
+    height: 50px;
+}
+.mod-recharge .txt-info .title{
+    width: 70px;
+    padding-right: 20px;
+    text-align: right;
+}
+.mod-recharge .txt-info .name em{
+    font-size: 15px;
+}
+.mod-recharge .txt-info .money-left .value{
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff6b00;
+}
+.mod-recharge .user-info .pic{
+    float: right;
+    overflow: hidden;
+}
+.mod-recharge .recharge{
+    width: 254px;
+    height: 32px;
+    border: #ff6b00 solid 2px;
+    border-radius: 17px;
+    border-right: none;
+    color: #000;
+    line-height: 32px;
+    margin: 30px auto 20px;
+}
+.mod-recharge .recharge input{
+    float: left;
+    border: none;
+    height: 24px;
+    line-height: 24px;
+    margin-left: 11px;
+    width: 166px;
+    margin-top: 3px;
+}
+.mod-recharge .recharge button{
+    width: 77px;
+    height: 36px;
+    border-radius: 17px;
+    color: #ffffff;
+    background-color: #ff6b00;
+    line-height: 36px;
+    float: right;
+    margin-top: -2px;
+    border: none;
+    text-align: center ;
+    cursor: pointer;
+    box-shadow: 0 -2px 1px 1px #cc5600 inset;
+}
+.mod-recharge .pay-src .pay-type{
+    width: 130px;
+    height: 28px;
+    margin: 20px auto 34px;
+    padding:0;
+}
+.mod-recharge .pay-type li{
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    width: 59px;
+    color: #000;
+    background-color: #ffffff;
+    border:#000 solid  2px;
+    cursor: pointer;
+}
+.mod-recharge .pay-type .cash{
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+}
+.mod-recharge .pay-type .card{
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+}
+.mod-recharge .pay-type .selected{
+    color: #fff;
+    background-color: #000;
+}
+
+

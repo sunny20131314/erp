@@ -1,0 +1,181 @@
+.mod-ku{
+    display: none;
+    width:360px;
+    height: 168px;
+    border:1px solid #000;
+    border-radius: 10px;
+    overflow: hidden;
+    color:#000;
+    background:#fff;
+    font-size: 15px;
+}
+.mod-ku .header{
+    width:360px;
+    height: 38px;
+    background:#ededed;
+    line-height: 38px;
+}
+.mod-ku .header .crumb{
+    float:left;
+    margin-left:14px;
+}
+.mod-ku .header .ku-list{
+    height:24px;
+    line-height: 24px;
+    font-size: 15px;
+}
+.mod-ku .header .close{
+    float: right;
+    width: 28px;
+    height: 28px;
+    margin-top: 5px;
+    margin-right: 5px;
+    background: url("../../img/close.png");
+}
+.mod-ku .content{
+    width:320px;
+    height: 110px;
+    overflow: hidden;
+    color:#000;
+    background:#fff;
+    padding:8px 28px 12px 14px;
+}
+.mod-ku .content input,
+.mod-ku .content .left-num .input{
+    float:left;
+    width:104px;
+    height:24px;
+    line-height: 24px;
+    border:1px solid #000000;
+    border-radius: 4px;
+    padding:0 16px 0 10px;
+    margin-left:14px;
+    font-size: 12px;
+}
+.mod-ku .content span{
+    float: left;
+}
+.mod-ku .content .name,
+.mod-ku .content .left-num,
+.mod-ku .content .put-num{
+    width:320px;
+    height:26px;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+.mod-ku .content .left-num .input input{
+    width:56px;
+    border:none;
+    margin:0;
+    padding:0;
+    float:left;
+}
+.mod-ku .content .left-num .input span{
+    width:48px;
+    height:24px;
+    line-height:24px;
+    float:right;
+    color:#ff6b00;
+}
+.mod-ku .content .put-num{
+    margin: 0;
+}
+.mod-ku .content .inventory,
+.mod-ku .content .btn{
+    float: right;
+    width: 78px;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 12px;
+    box-shadow: 0 2px 1px 1px #188ea2;
+    background-color: #29bcd7;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/*清单弹层*/
+.mod-commodity-detail{
+    display: none;
+    width:330px;
+    height: 168px;
+    border:1px solid #000;
+    border-radius: 6px;
+    overflow: hidden;
+    color:#000;
+    background:#fff;
+    font-size: 12px;
+
+}
+.mod-commodity-detail .header{
+    width:330px;
+    height: 34px;
+    background:#ededed;
+    line-height: 34px;
+}
+.mod-commodity-detail .header .close{
+    float: right;
+    width: 28px;
+    height: 28px;
+    margin-top: 3px;
+    margin-right: 3px;
+    background: url("../../img/close.png");
+}
+.mod-commodity-detail .content{
+    width:330px;
+    height: 132px;
+    overflow: hidden;
+    color:#000;
+    background:#fff;
+    margin-top:1px;
+}
+.mod-commodity-detail .content .consume-list{
+    width:330px;
+    height:132px;
+    overflow: hidden;
+}
+.mod-commodity-detail .content .consume-list .title{
+    height:38px;
+    line-height: 38px;
+    color:#808080;
+    width:330px;
+    text-align: center;
+    margin-bottom: 1px;
+    background-color: #fff;
+}
+.mod-commodity-detail .content .consume-list ul{
+    width:330px;
+    height:94px;
+    overflow:scroll;
+    border-bottom-left-radius:6px;
+    border-bottom-right-radius:6px;
+    background-color: #fff;
+}
+.mod-commodity-detail .content .consume-list ul li{
+    height:30px;
+    line-height: 30px;
+    width:330px;
+    text-align: center;
+    margin-bottom: 1px;
+    color:#000;
+}
+.mod-commodity-detail .content .consume-list span{
+    float: left;
+    margin-left:1px;
+    background-color: #ededed;
+}
+.mod-commodity-detail .content .consume-list .item{
+    width:90px;
+}
+.mod-commodity-detail .content .consume-list .time{
+    width:110px;
+}
+.mod-commodity-detail .content .consume-list .name{
+    width:56px;
+}
+.mod-commodity-detail .content .consume-list .left-num{
+    width:70px;
+}
+

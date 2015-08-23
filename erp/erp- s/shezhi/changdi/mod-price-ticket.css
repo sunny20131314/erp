@@ -1,0 +1,116 @@
+/*.mod-price-ticket*/
+.mod-price-ticket{
+    display: none;
+    width: 370px;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    font-size: 14px;
+}
+.mod-price-ticket a{
+    color: #000;
+}
+.mod-price-ticket .header{
+    height: 38px;
+    line-height: 38px;
+    padding: 0 5px;
+    background-color: #ededed;
+
+}
+.mod-price-ticket .header .crumb{
+    padding-left: 10px;
+}
+.mod-price-ticket .header .close{
+    float: right;
+    width: 28px;
+    height: 28px;
+    margin-top: 5px;
+    background: url("../../img/close.png");
+}
+.mod-price-ticket .content{
+    padding: 10px 0 20px;
+}
+.mod-price-ticket .cards{
+    height: 298px;
+    overflow: scroll;
+}
+.mod-price-ticket .cards li{
+    position: relative;
+    float: left;
+    width: 370px;
+    height: 149px;
+}
+.mod-price-ticket .cards .row{
+    height: 26px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.mod-price-ticket .cards .no{
+    height: 16px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    line-height: 16px;
+    color: #22b5d0;
+
+}
+.mod-price-ticket .cards .row-title{
+    float: left;
+    width: 70px;
+    height: 26px;
+    line-height: 26px;
+    padding-left: 15px;
+    text-align: left;
+}
+.mod-price-ticket .cards input{
+    float: left;
+    width: 108px;
+    height: 24px;
+    padding: 0 10px;
+    line-height: 24px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.mod-price-ticket .cards .small-row{
+    float: left;
+    width: 150px;
+}
+.mod-price-ticket .small-row input{
+    width: 40px;
+}
+.mod-price-ticket .cards a{
+    position: absolute;
+    right: 30px;
+    width: 20px;
+    height: 20px;
+}
+.mod-price-ticket .cards .plus{
+    bottom: 15px;
+    background: url("../../img/mem-plus.png");
+}
+.mod-price-ticket .cards .minus{
+    bottom: 50px;
+    background: url("../../img/mem-minus.png");
+}
+.mod-price-ticket .btn{
+    display: inline-block;
+    width: 155px;
+    height: 38px;
+    margin: 15px auto 0 113px;
+    background-color: #22b5d0;
+    border-radius: 19px;
+    color: #fff;
+    text-align: center;
+    line-height: 38px;
+    box-shadow: 0 2px 1px 1px #188ea2;
+    text-decoration: none;
+}
+.mod-price-ticket .btn:hover{
+    color: #fff !important;
+}
+
+
+
+

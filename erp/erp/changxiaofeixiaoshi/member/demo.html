@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>新增会员</title>
+    <link rel="stylesheet" href="../../lib/css/reset.css"/>
+    <script src="../../lib/js/require.min.js"></script>
+
+    <!--日历的样式-->
+    <!--日历组件地址：http://plugins.jquery.com/pickadate/-->
+    <link rel="stylesheet" href="../../lib/datetimepicker/themes/classic.css"/>
+    <link rel="stylesheet" href="../../lib/datetimepicker/themes/classic.date.css"/>
+
+    <!--demo js-->
+    <script src="./demo.js"></script>
+
+</head>
+<body>
+     <!--demo start-->
+      <button class="demo-member">新增会员</button>
+     <!--demo end-->
+
+     <!--member start-->
+     <link rel="stylesheet" href="./mod-member.css"/>
+     <div class="mod-member">
+         <div class="header">
+             <span class="crumb">会员>>新增</span>
+             <a class="close" href="#" ></a>
+         </div>
+         <div class="card-numb ">
+             <div class="numb">
+                 <span>会员卡号</span>
+                 <div class="input">
+                     <input type="text" placeholder="请刷卡"/>
+                 </div>
+             </div>
+             <div class="pict">
+                 <label>与运动世界会员关联</label>
+                 <a href="#" class="pict-link"></a>
+             </div>
+         </div>
+         <div class="info">
+             <div class="elem fd-clr">
+                 <span class="name">姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名</span>
+                 <div class="input">
+                     <input type="text"/>
+                 </div>
+                 <div class="input numb">
+                     <input type="text"/>
+                 </div>
+                 <span class="tele">联系电话</span>
+             </div>
+             <div class="memb-level fd-clr">
+                 <span>会员级别</span>
+                 <select name="member-level" class="member-level">
+                     <option value="1" selected>普通会员</option>
+                     <option value="2">黄金会员</option>
+                 </select>
+                 <button class="set">设置</button>
+                 <span class="type">会员卡类型</span>
+                 <select name="card-type" class="card-type">
+                     <option value="1" selected>请选择</option>
+                     <option value="2">2</option>
+                 </select>
+             </div>
+             <div class="referee">
+                 <span>推&nbsp;&nbsp;荐&nbsp;人</span>
+                 <div class="input">
+                     <input type="text"/>
+                 </div>
+             </div>
+             <div class="id-numb">
+                 <span>身份证号</span>
+                 <div class="input">
+                     <input type="text"/>
+                 </div>
+                 <span class="numb-space">-</span>
+                 <div class="input less">
+                     <input type="text"/>
+                 </div>
+                 <span class="numb-space">-</span>
+                 <div class="input less">
+                     <input type="text"/>
+                 </div>
+                 <span class="numb-space">-</span>
+                 <div class="input less">
+                     <input type="text"/>
+                 </div>
+             </div>
+             <div class="note fd-clr">
+                 <span>会员备注</span>
+                 <textarea name="remark" ></textarea>
+             </div>
+         </div>
+         <div class="password fd-clr">
+             <div class="consume-pass fd-clr">
+                 <span>消费密码</span>
+                 <div class="input">
+                     <input type="text"/>
+                 </div>
+                 <span class="space">*</span>
+                 <button class="reset">重置密码</button>
+                 <button class="alter">修改密码</button>
+             </div>
+             <div class="valid">
+                 <span>有&nbsp;&nbsp;效&nbsp;期</span>
+                 <div class="input">
+                     <input type="text" placeholder="起始时间" class="period-begin date-picker"/>
+                    </div>
+                 <span class="space">—</span>
+                 <div class="input seco">
+                     <input type="text" placeholder="结束时间" class="period-end date-picker"/>
+                 </div>
+                 <span class="space">*</span>
+             </div>
+             <div class="card fd-clr">
+                 <div class="money-left fd-clr">
+                     <span>卡内余额</span>
+                     <div class="input">
+                         <input type="text"/>
+                     </div>
+                 </div>
+                 <div class="integral fd-clr">
+                     <span>卡内积分</span>
+                     <div class="input">
+                         <input type="text"/>
+                     </div>
+                 </div>
+             </div>
+             <div class="pict">
+                 <span>会员照片:已上传</span>
+                 <button class="edit">编辑</button>
+             </div>
+         </div>
+         <div class="footer">
+             <a class="sure">确定</a>
+         </div>
+     </div>
+     <!--member end-->
+
+
+     <!--level 会员级别 start-->
+     <div class="mod-level">
+         <div class="head">
+             <span class="crumb">会员>>新增</span>
+             <a class="close" href="#" ></a>
+         </div>
+         <div class="level-ul">
+             <div class="header fd-clr">
+                     <div class="discount-level">
+                         <label class="level">级别</label>
+                         <label class="discount">折扣率</label>
+                     </div>
+                     <span>桌台费</span>
+                     <span>商品费</span>
+                     <span>出租费</span>
+                     <span>教练费</span>
+             </div>
+             <ul class="content">
+                 <li class="fd-clr">
+                     <span class="len">普通会员</span>
+                     <span>1.00</span>
+                     <span>0.95</span>
+                     <span>0.95</span>
+                     <span>0.95</span>
+                 </li>
+                 <li class="fd-clr">
+                     <span class="len">黄金会员</span>
+                     <span>0.90</span>
+                     <span>0.80</span>
+                     <span>0.70</span>
+                     <span>0.80</span>
+                 </li>
+                 <li class="fd-clr">
+                     <span class="len"></span>
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                 </li>
+                 <li class="fd-clr">
+                     <span class="len"></span>
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                     <span></span>
+                 </li>
+             </ul>
+         </div>
+         <div class="name">
+             <div class="header">
+                 <span>级别名称</span>
+                 <div class="input">
+                     <input type="text"/>
+                 </div>
+             </div>
+             <div class="content">
+                 <ul>
+                     <li class="less">
+                         <span class="more-space">折扣率</span>
+                         <span>是否卡内扣除</span>
+                     </li>
+                     <li>
+                         <span>桌台费</span>
+                         <div class="input">
+                             <input type="text"/>
+                         </div>
+                         <span>&#37;</span>
+                         <span class="deduct">卡内扣除</span>
+                     </li>
+                     <li>
+                         <span>商品费</span>
+                         <div class="input">
+                             <input type="text"/>
+                         </div>
+                         <span>&#37;</span>
+                         <span class="deduct">卡内扣除</span>
+                     </li>
+                     <li>
+                         <span>出租费</span>
+                         <div class="input">
+                             <input type="text"/>
+                         </div>
+                         <span>&#37;</span>
+                         <span class="deduct">卡内扣除</span>
+                     </li>
+                     <li>
+                         <span>教练费</span>
+                         <div class="input">
+                             <input type="text"/>
+                         </div>
+                         <span>&#37;</span>
+                         <span class="deduct">卡内扣除</span>
+                     </li>
+                 </ul>
+             </div>
+         </div>
+         <div class="footer fd-clr">
+             <label>会员升级</label>
+             <div class="upgrade">
+                 <span>当消费级别达到</span>
+                 <div class="input">
+                     <input type="text"/>
+                 </div>
+                 <span>自动升级到本级别</span>
+             </div>
+             <a href="#" class="preserve">保存</a>
+         </div>
+     </div>
+     <!--level 会员级别 end-->
+
+
+     <!--password 修改密码 start-->
+     <div class="mod-password">
+         <div class="header">
+             <a class="close" href="#"></a>
+         </div>
+         <div class="content">
+             <div class="input">
+                 <input type="text" placeholder="原密码"/>
+             </div>
+             <div class="input">
+                 <input type="text" placeholder="新密码"/>
+             </div>
+             <div class="input">
+                 <input type="text" placeholder="重新输一遍"/>
+             </div>
+             <div class="tips">
+                 <span class="tips">错误提示新信息</span>
+             </div>
+         </div>
+         <div class="footer">
+             <a href="#" class="preserve">保存</a>
+         </div>
+     </div>
+     <!--password 修改密码 end-->
+
+
+     <!--自拍照片编辑 start-->
+     <div class="mod-member-edit">
+         <div class="header">
+             <span class="crumb">会员>>自拍照片</span>
+             <a class="close" href="#" ></a>
+         </div>
+         <div class="content">
+             <div class="pict">
+                 <img src="../../img/member-edit-pict.png" alt="图片" width="120" height="120"/>
+             </div>
+             <div class="photo">
+                 <img src="../../img/member-edit-photo.png" alt="图片" width="241" height="240"/>
+             </div>
+             <button class="take-photo">拍照</button>
+         </div>
+         <button class="btn">保存</button>
+
+     </div>
+     <!--自拍照片编辑 end-->
+</body>
+

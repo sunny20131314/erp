@@ -1,0 +1,301 @@
+/*.mod-departure*/
+.mod-departure{
+    display: none;
+    width: 518px;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+}
+.mod-departure a{
+    color: #000;
+}
+.mod-departure .header{
+    height: 38px;
+    line-height: 38px;
+    padding: 0 5px;
+    background-color: #ededed;
+
+}
+.mod-departure .header .crumb{
+    padding-left: 10px;
+}
+.mod-departure .header .type{
+    padding-left: 20px;
+}
+.mod-departure .header .hand-card{
+    margin-left: 45px;
+}
+.mod-departure .header .close{
+    float: right;
+    width: 28px;
+    height: 28px;
+    margin-top: 5px;
+    background: url("../img/close.png");
+}
+.mod-departure .content{
+    width: 400px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+.mod-departure .content .scan{
+    width: 272px;
+    height: 17px;
+    padding: 7px;
+    margin: 17px 0 17px 56px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.mod-departure .scan input{
+    float: left;
+    width: 255px;
+    height: 17px;
+    line-height: 17px;
+    border: none;
+}
+.mod-departure .scan button{
+    float: left;
+    width: 17px;
+    height: 17px;
+    background: url("../img/search.png");
+    border: none;
+}
+
+.mod-departure .txt-info li{
+    float: left;
+    width: 400px;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    background-color: #ededed;
+    overflow: hidden;
+}
+.mod-departure .txt-info span{
+    display: inline-block;
+    height: 50px;
+}
+.mod-departure .txt-info .title{
+    width: 70px;
+    padding-right: 20px;
+    text-align: right;
+}
+.mod-departure .txt-info .name .value{
+    font-size: 15px;
+}
+.mod-departure .txt-info .money-left .value{
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff6b00;
+}
+.mod-departure .phone{
+    height: 30px;
+    width: 378px;
+    padding: 0 10px;
+    margin: 15px 0 30px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.mod-departure .pay-line {
+    height: 32px;
+    line-height: 32px;
+}
+.mod-departure .pay-line .pay-amount{
+    color: #ff6b00;
+    font-size: 16px;
+    font-weight: bold;
+}
+.mod-departure .pay-line .pay-amount input{
+    width: 90px;
+    color: #ff6b00;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.mod-departure .pay-line .edit{
+    display: inline-block;
+    width: 56px;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: top;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background-color: #ededed;
+    text-align: center;
+    text-decoration: none;
+}
+.mod-departure .pay-line .departure{
+    float: right;
+    margin-right: 10px;
+    width: 112px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 14px;
+    box-shadow: 0 2px 1px 1px #188ea2;
+    background-color: #29bcd7;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/*.mod-departure-rslt*/
+.mod-departure-rslt{
+    display: none;
+    width: 518px;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+}
+.mod-departure-rslt a{
+    color: #000;
+}
+.mod-departure-rslt .header{
+    height: 38px;
+    line-height: 38px;
+    padding: 0 5px;
+    background-color: #ededed;
+
+}
+.mod-departure-rslt .header .crumb{
+    padding-left: 10px;
+}
+.mod-departure-rslt .header .type{
+    padding-left: 20px;
+}
+.mod-departure-rslt .header .close{
+    float: right;
+    width: 28px;
+    height: 28px;
+    margin-top: 5px;
+    background: url("../img/close.png");
+}
+.mod-departure-rslt .content{
+    width: 400px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+.mod-departure-rslt .info{
+    margin-top: 15px;
+}
+.mod-departure-rslt .info .txt-info li{
+    float: left;
+    width: 400px;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    background-color: #ededed;
+    overflow: hidden;
+}
+.mod-departure-rslt .info .txt-info span{
+    display: inline-block;
+    height: 50px;
+}
+.mod-departure-rslt .info .txt-info .title{
+    width: 70px;
+    padding-right: 20px;
+    text-align: right;
+}
+.mod-departure-rslt .info .txt-info .name .value{
+    font-size: 15px;
+}
+.mod-departure-rslt .info .txt-info .money-left .value{
+    font-size: 15px;
+}
+.mod-departure-rslt .info .txt-info em{
+    color: #ff6b00;
+    font-size: 15px;
+}
+.mod-departure-rslt .pay-src{
+    line-height: 24px;
+    margin: 13px auto 0;
+}
+.mod-departure-rslt .pay-src .pay-type{
+    float: left;
+    height: 24px;
+}
+.mod-departure-rslt .pay-src .confirm{
+    float: right;
+    width: 112px;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 12px;
+    box-shadow: 0 2px 1px 1px #188ea2;
+    background-color: #29bcd7;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+.mod-departure-rslt .pay-type li{
+    float: left;
+    width: 72px;
+    border: 1px solid #000;
+    border-left: none;
+    background-color: #ededed;
+    text-align: center;
+    cursor: pointer;
+}
+.mod-departure-rslt .pay-type li.member{
+    border-left: 1px solid #000;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.mod-departure-rslt .pay-type li.card{
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.mod-departure-rslt .pay-type li.selected{
+    color: #fff;
+    background-color: #4d4d4d;
+}
+.mod-departure-rslt .user-info .txt-info{
+    float: left;
+    width: 270px;
+}
+.mod-departure-rslt .user-info .txt-info li{
+    float: left;
+    width: 270px;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    background-color: #ededed;
+    overflow: hidden;
+}
+.mod-departure-rslt .user-info .txt-info span{
+    display: inline-block;
+    height: 50px;
+}
+.mod-departure-rslt .user-info .txt-info .title{
+    width: 70px;
+    padding-right: 20px;
+    text-align: right;
+}
+.mod-departure-rslt .user-info .txt-info .name em{
+    font-size: 15px;
+}
+.mod-departure-rslt .user-info .txt-info .money-left .value{
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff6b00;
+}
+.mod-departure-rslt .user-info .txt-info .charge:hover{
+    color: #fff !important;
+}
+.mod-departure-rslt .user-info .pic{
+    float: right;
+    width: 125px;
+    height: 155px;
+    overflow: hidden;
+}
+.mod-departure-rslt .for-member-card{
+    display: none;
+    margin-top: 17px;
+}

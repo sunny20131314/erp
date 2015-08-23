@@ -1,0 +1,725 @@
+/*   mod-member   */
+.mod-member{
+    display: none;
+    width: 632px;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    margin:0 auto;
+    font-size:15px;
+}
+.mod-member span{
+    float: left;
+    margin-right: 10px;
+    width:60px;
+    font-size:15px;
+    height:32px;
+    line-height: 32px;
+    overflow:hidden;
+}
+.mod-member .header{
+    height: 38px;
+    line-height: 38px;
+    padding: 0 5px;
+    background-color: #ededed;
+}
+.mod-member .header .crumb{
+    padding-left: 10px;
+    width:100px;
+    height: 38px;
+    line-height: 38px;
+    margin:0;
+}
+.mod-member .header .close{
+    float: right;
+    width: 28px;
+    height: 28px;
+    margin-top: 5px;
+    background: url("../../img/close.png");
+}
+.mod-member .card-numb {
+    width: 540px;
+    margin: 0 auto;
+    height: 68px;
+    line-height: 68px;
+}
+.mod-member .card-numb .numb{
+    float: left;
+    height: 68px;
+    line-height: 68px;
+}
+.mod-member .card-numb .numb span{
+    height: 68px;
+    line-height: 68px;
+}
+.mod-member .card-numb .numb .input{
+    width: 160px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    display: inline-block;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    background-color: #ededed;
+}
+.mod-member .card-numb .numb .input input{
+    font-size:12px;
+    width: 160px;
+    height: 18px;
+    border: none;
+    background-color: #ededed;
+}
+.mod-member .card-numb .pict{
+    float: right;
+    width:215px;
+    height: 32px;
+    line-height: 32px;
+    margin:18px 0;
+}
+.mod-member .card-numb .pict label{
+    float: right;
+    margin-left: 12px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #ff6b00;
+    border-radius: 4px;
+    color: #ff6b00;
+    text-align: center;
+    width: 174px;
+}
+.mod-member .card-numb .pict .pict-link{
+    float: left;
+    width: 27px;
+    height: 19px;
+    margin:7px 0 6px;
+    background: url("../../img/car-world-sport.png");
+}
+.mod-member .info{
+    background-color:#fff;
+    border-bottom:1px solid #ededed ;
+    border-top:1px solid #ededed;
+    width: 540px;
+    margin: 0 auto;
+    padding:18px 46px;
+    overflow: hidden;
+}
+.mod-member .info .input{
+    width: 92px;
+    height:30px;
+    line-height:30px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding:0 10px;
+    float:left;
+}
+.mod-member .info .input input{
+    width:92px;
+    height: 22px;
+    border: none;
+}
+.mod-member .info .elem{
+    width:540px;
+    height: 32px;
+    line-height:32px;
+    margin-bottom:18px;
+}
+.mod-member .info .elem .numb{
+    width: 154px;
+    height: 30px;
+    float:right;
+}
+.mod-member .info .elem .tele{
+    float:right;
+}
+.mod-member .info .elem .numb input{
+    width: 158px;
+    float:right;
+}
+.mod-member .info .memb-level{
+    width:540px;
+    height: 32px;
+    line-height:32px;
+    margin-bottom:18px;
+}
+.mod-member .info .memb-level select{
+    box-sizing:border-box;
+    border-color:#000;
+    width:114px;
+    height:32px;
+    line-height: 32px;
+    color: #cccccc;
+    display:inline-block;
+    vertical-align: top;
+    margin-left:0;
+}
+.mod-member .info .memb-level button{
+    background:#eaeaea;
+    width: 56px;
+    height: 32px;
+    line-height: 32px;
+    text-align:center;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    vertical-align: top;
+    margin:0 20px 0 8px;
+    cursor: pointer;
+}
+.mod-member .info .memb-level .type{
+    display:inline-block;
+    width:75px;
+    height:32px;
+    line-height: 32px;
+    float:none;
+}
+.mod-member .info .referee{
+    width:540px;
+    height: 32px;
+    line-height:32px;
+    margin-bottom:18px;
+}
+.mod-member .info .id-numb{
+    width:540px;
+    height: 32px;
+    line-height:32px;
+    margin-bottom:18px;
+}
+.mod-member .info .id-numb .numb-space{
+    width:19px;
+    height: 32px;
+    line-height:32px;
+    text-align: center;
+    margin:0;
+}
+.mod-member .info .id-numb .input.less{
+    width:77px;
+    height: 30px;
+    line-height:30px;
+    float:left;
+}
+.mod-member .info .id-numb .input.less input{
+    width:79px;
+    height: 30px;
+    line-height:30px;
+}
+.mod-member .info .note{
+    width: 540px;
+    height:70px;
+    line-height: 32px;
+    margin:0;
+}
+.mod-member .info .note textarea{
+    width:448px;
+    height:70px;
+    padding:0 10px;
+    line-height: 25px;
+    float:right;
+    overflow:scroll;
+}
+.mod-member .password{
+    width: 540px;
+    margin:18px auto 32px;
+}
+.mod-member .password .input{
+    float:left;
+    width: 200px;
+    height:30px;
+    line-height:30px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding:0 9px;
+}
+.mod-member .password .input input{
+    width:200px;
+    height: 24px;
+    line-height: 24px;
+    border: none;
+}
+.mod-member .password .space {
+    width:22px;
+    height:32px;
+    line-height: 32px;
+    margin:0 auto 0 8px;
+    float: left;
+}
+.mod-member .password .consume-pass{
+    width:540px;
+    height:32px;
+    line-height: 32px;
+    margin-bottom: 18px;
+}
+.mod-member .password .consume-pass .alter,
+.mod-member .password .consume-pass .reset {
+    float: right;
+    width:104px;
+    border-radius: 4px;
+    border:1px solid #000;
+    background:#ededed;
+    height:30px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 12px;
+    cursor: pointer;
+}
+.mod-member .password .consume-pass .alter {
+    margin:0;
+}
+.mod-member .password .valid{
+    width:570px;
+    height:32px;
+    line-height: 32px;
+    margin:0 0 18px 0;
+}
+.mod-member .password .card {
+    float:left;
+    width:290px;
+    height:82px;
+    line-height: 32px;
+}
+.mod-member .password .card .money-left{
+    margin-bottom: 18px;
+}
+.mod-member .password .pict{
+    float: right;
+    width:184px;
+    border:1px solid #ededed ;
+    height: 82px;
+    line-height: 82px;
+    padding:0 18px;
+}
+.mod-member .password .pict span{
+    width:112px;
+    height:82px;
+    line-height: 82px;
+    float:left;
+    overflow:hidden;
+}
+.mod-member .password .pict button{
+    float:right;
+    margin-top:25px;
+    background: #ededed;
+    border:1px solid #000;
+    border-radius: 4px;
+    height:32px;
+    line-height: 32px;
+    text-align: center;
+    width:60px;
+    cursor: pointer;
+}
+.mod-member .footer{
+    width:540px;
+    height: 40px;
+    line-height: 40px;
+    margin:0 auto 18px;
+}
+.mod-member .footer .sure{
+    margin:auto;
+    display:block;
+    width:197px ;
+    height: 39px;
+    line-height: 39px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 2px 1px 1px #188ea2;
+    background-color: #29bcd7;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*   mod-level   */
+.mod-level{
+    width: 340px;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    margin:0 auto;
+    font-size:14px;
+    display: none;
+}
+.mod-level span{
+    float: left;
+}
+.mod-level .head{
+    height: 28px;
+    line-height: 28px;
+    background-color: #ededed;
+    padding:5px;
+}
+.mod-level .head .crumb{
+    padding-left: 10px;
+}
+.mod-level .head .close{
+    float: right;
+    width: 28px;
+    height: 28px;
+    background: url("../../img/close.png");
+}
+.mod-level .level-ul{
+    font-size:12px;
+    margin:10px;
+    width:320px;
+    color:#808080;
+    background: #fff;
+}
+.mod-level .level-ul .header{
+    width:320px;
+    height:38px;
+    background-color: #fff;
+
+}
+.mod-level .level-ul .header span {
+    float: left;
+    width: 59px;
+    height: 38px;
+    line-height: 38px;
+    text-align:center;
+    background-color: #ededed;
+    margin-right:1px;
+}
+.mod-level .level-ul .header .discount-level{
+    float: left;
+    width: 79px;
+    height: 38px;
+    background: url("../../img/slant.png");
+    margin-right:0;
+}
+.mod-level .level-ul .header .level{
+    float:left;
+    height: 12px;
+    line-height: 12px;
+    margin-left:6px;
+    margin-top: 20px;
+}
+.mod-level .level-ul .header .discount{
+    float:right;
+    line-height: 12px;
+    height: 12px;
+    margin-right:4px;
+    margin-top: 4px;
+}
+.mod-level .level-ul .content{
+    width:320px;
+    height:78px;
+    background-color: #fff;
+    overflow: scroll;
+}
+.mod-level .level-ul .content span {
+    float: left;
+    width: 59px;
+    height: 38px;
+    line-height: 38px;
+    text-align:center;
+    background-color: #ededed;
+    margin-right:1px;
+    margin-top:1px;
+    color:#000;
+}
+.mod-level .level-ul .content .len{
+    width: 78px;
+    height: 38px;
+    line-height: 38px;
+    color:#808080;
+}
+.mod-level .name{
+    margin:0 auto;
+    width:320px;
+    padding:10px;
+    color:#000;
+    background:#fff;
+    border-bottom:1px solid #ededed ;
+    border-top:1px solid #ededed;
+}
+
+.mod-level .name .header{
+    height:32px;
+    margin:0 auto 10px;
+}
+.mod-level .name .header span{
+    height:30px;
+    line-height:30px;
+}
+.mod-level .name .header .input{
+    float:left;
+    width:130px;
+    height: 30px;
+    line-height: 30px;
+    border:1px solid #000;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+.mod-level .name .header .input input{
+    width:114px;
+    height: 16px;
+    line-height: 16px;
+    border:none;
+    padding:0 7px;
+}
+.mod-level .name .content{
+    width:320px;
+    margin:0 auto;
+}
+.mod-level .name .content li{
+    width:287px;
+    height:30px;
+    line-height: 30px;
+    padding:10px 18px 10px 15px;
+    background-color: #ededed;
+    color:#000;
+    margin-top:1px;
+}
+.mod-level .name .content span{
+    height:30px;
+    line-height:30px;
+}
+.mod-level .name .content .input{
+    float:left;
+    width:89px;
+    height: 29px;
+    line-height: 29px;
+    border:1px solid #000;
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-right:14px;
+    background: #fff;
+}
+.mod-level .name .content .input input{
+    width:75px;
+    height: 16px;
+    line-height: 16px;
+    border:none;
+    padding:0 7px;
+}
+.mod-level .name .content .less{
+    height:32px;
+    line-height: 32px;
+    color:#808080;
+}
+.mod-level .name .content .less span {
+    float:right;
+    margin-right:10px;
+}
+.mod-level .name .content .less .more-space{
+    float:left;
+    margin-left:70px;
+}
+.mod-level .name .content .deduct {
+    font-size: 12px;
+    float: right;
+    color: #cccccc;
+    background: #fff;
+    border: 1px solid #cccccc;
+    width: 88px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+.mod-level .name .content .selected {
+    color: #ff6b00;
+    border: 1px solid #ff6b00;
+}
+.mod-level .footer{
+    margin:16px 12px 20px 12px;
+    width:316px;
+    height:126px;
+    color:#000;
+    background:#fff;
+}
+.mod-level .footer label{
+    width:316px;
+    display:block;
+    margin-bottom:10px;
+    font-size:14px;
+    height: 16px;
+    line-height: 16px;
+}
+.mod-level .footer .upgrade {
+    display: block;
+    width:316px;
+    height:32px;
+    line-height:32px;
+    color:#808080;
+    font-size:12px;
+}
+.mod-level .footer .upgrade .input{
+    float:left;
+    width:88px;
+    height: 30px;
+    line-height: 30px;
+    border:1px solid #000;
+    border-radius: 4px;
+    margin: 0 12px;
+    background: #fff;
+}
+.mod-level .footer .upgrade .input input{
+    width:74px;
+    height: 16px;
+    line-height: 16px;
+    border:none;
+    padding:0 7px;
+}
+.mod-level .footer .preserve{
+    margin:30px auto 0;
+    display:block;
+    width:165px ;
+    height: 37px;
+    line-height: 37px;
+    border: none;
+    border-radius: 19px;
+    box-shadow: 0 2px 1px 1px #188ea2;
+    background-color: #29bcd7;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*   mod-password  */
+.mod-password {
+    display:none;
+    width:296px;
+    background-color:#ededed;
+    border-radius: 10px;
+    border: 1px solid #000;
+    overflow: hidden;
+    margin:0 auto;
+    font-size:12px;
+}
+.mod-password .header{
+    width:286px;
+    padding:5px;
+    height: 38px;
+    line-height: 38px;
+}
+.mod-password .close{
+    float: right;
+    width: 28px;
+    height: 28px;
+    background: url("../../img/close.png");
+}
+.mod-password .content{
+    width:190px;
+    line-height: 38px;
+    margin:0 auto;
+}
+.mod-password .content .input{
+    display:block;
+    width:188px;
+    height: 30px;
+    line-height: 30px;
+    border:1px solid #000;
+    border-radius: 4px;
+    margin: 10px auto 0;
+    background: #fff;
+}
+.mod-password .content .input input{
+    width:148px;
+    height: 16px;
+    line-height: 16px;
+    border:none;
+    padding:0 20px;
+}
+.mod-password .content .tips{
+    color:#29bcd7;
+    margin: auto;
+    height:34px;
+    line-height:34px;
+    float:none;
+    text-align: center;
+}
+.mod-password .preserve{
+    margin:0 auto 30px;
+    display:block;
+    width:165px ;
+    height: 37px;
+    line-height: 37px;
+    border: none;
+    border-radius: 19px;
+    box-shadow: 0 2px 1px 1px #188ea2;
+    background-color: #29bcd7;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*编辑*/
+.mod-member-edit{
+    display: none;
+    width:342px;
+    font-size: 15px;
+    background-color: #fff;
+    border:1px solid #000;
+    border-radius: 10px;
+    overflow:hidden;
+}
+.mod-member-edit .header{
+    width:332px;
+    padding:5px;
+    height: 28px;
+    line-height: 28px;
+    background-color: #ededed;
+}
+.mod-member-edit .header .crumb{
+    float: left;
+    padding-left: 10px;
+    width:112px;
+    height: 28px;
+    line-height: 28px;
+    margin:0;
+}
+.mod-member-edit .header .close{
+    float: right;
+    width: 28px;
+    height: 28px;
+    background: url("../../img/close.png");
+}
+.mod-member-edit .content {
+    width: 342px;
+    margin: 0 auto;
+}
+.mod-member-edit .content .pict{
+    width:120px;
+    height:120px;
+    margin:32px auto;
+}
+.mod-member-edit .content .photo {
+    width:241px;
+    height:240px;
+    margin:0 auto;
+}
+.mod-member-edit .content .take-photo{
+    width:241px;
+    height:35px;
+    margin:0 auto;
+    display: block;
+    border:none;
+    border-bottom: 1px solid #000000;
+    background-color: #535353;
+    color:#fff;
+    font-size: 15px;
+}
+.mod-member-edit .btn{
+    width: 168px;
+    display: block;
+    margin:38px auto 20px;
+    height: 39px;
+    line-height: 39px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 2px 1px 1px #188ea2;
+    background-color: #29bcd7;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}

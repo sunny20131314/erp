@@ -1,0 +1,238 @@
+/*.mod-commodity*/
+.mod-commodity{
+    display: none;
+    width: 518px;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+}
+.mod-commodity a{
+    color: #000;
+}
+.mod-commodity .header{
+    height: 38px;
+    line-height: 38px;
+    padding: 0 5px;
+    background-color: #ededed;
+}
+.mod-commodity .header .crumb{
+    padding-left: 10px;
+}
+.mod-commodity .header .sport{
+    margin-left: 40px;
+}
+.mod-commodity .header .hand-card{
+    margin-left: 45px;
+}
+.mod-commodity .header .close{
+    float: right;
+    width: 28px;
+    height: 28px;
+    margin-top: 5px;
+    background: url("../img/close.png");
+}
+.mod-commodity .content{
+    width: 400px;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+.mod-commodity .content .scan{
+    width: 272px;
+    height: 17px;
+    padding: 7px;
+    margin: 17px 0 17px 56px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.mod-commodity .scan input{
+    float: left;
+    width: 255px;
+    height: 17px;
+    line-height: 17px;
+    border: none;
+}
+.mod-commodity .scan button{
+    float: left;
+    width: 17px;
+    height: 17px;
+    background: url("../img/search.png");
+    border: none;
+}
+.mod-commodity .list{
+    color: #000000;
+    font-size: 12px;
+    width: 400px;
+    height: 150px;
+    overflow-x: hidden;
+}
+.mod-commodity .list dd{
+    height: 30px;
+    width:400px;
+    margin-top: 1px;
+}
+.mod-commodity .list span{
+    background-color:#ededed;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    padding: 0;
+    margin-right: 1px;
+    float: left;
+}
+.mod-commodity .list .detail{
+    background-color:#ededed;
+    color:#808080;
+    height:26px;
+    line-height:26px;
+    padding-left: 44px;
+}
+.mod-commodity .list .item{
+    width: 140px;
+    padding-left: 10px;
+}
+.mod-commodity .list .num{
+    width: 90px;
+    text-align:center;
+}
+.mod-commodity .list .money{
+    width: 80px;
+    text-align:center;
+}
+.mod-commodity .list .delete{
+    width:77px;
+    text-align: center;
+    margin-right:0;
+}
+.mod-commodity .pay-src{
+    line-height: 24px;
+    margin: 13px auto 19px;
+}
+.mod-commodity .pay-src .pay-type{
+    float: left;
+    height: 24px;
+}
+.mod-commodity .pay-type li{
+    float: left;
+    width: 72px;
+    border: 1px solid #000;
+    border-left: none;
+    background-color: #ededed;
+    text-align: center;
+    cursor: pointer;
+}
+.mod-commodity .pay-type li.member{
+    border-left: 1px solid #000;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.mod-commodity .pay-type li.card{
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.mod-commodity .pay-type li.selected{
+    color: #fff;
+    background-color: #4d4d4d;
+}
+.mod-commodity .pay-line {
+    height: 32px;
+    line-height: 32px;
+    overflow: hidden;
+}
+.mod-commodity .pay-line .pay-label{
+    height: 32px;
+    line-height: 32px;
+    float:left;
+}
+.mod-commodity .pay-line .pay-amount{
+    color: #ff6b00;
+    height: 32px;
+    font-size: 16px;
+    font-weight: bold;
+    float:left;
+}
+.mod-commodity .pay-line .pay-amount span{
+    float:left;
+}
+.mod-commodity .pay-line .pay-amount input{
+    color: #ff6b00;
+    font-size: 16px;
+    height: 32px;
+    font-weight: bold;
+    border: none;
+    width: 100px;
+    line-height: 32px;
+    float: left;  
+}
+.mod-commodity .pay-line .edit{
+    display: inline-block;
+    width: 56px;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: top;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background-color: #ededed;
+    text-align: center;
+    text-decoration: none;
+}
+.mod-commodity .pay-line .pay-now,
+.mod-commodity .pay-line .pay-later{
+    float: right;
+    width: 60px;
+    height: 24px;
+    margin-right: 20px;
+    margin-top: 4px;
+    line-height: 24px;
+    border-radius: 12px;
+    border: 1px solid #000;
+    background-color: #ededed;
+    text-align: center;
+    text-decoration: none;
+}
+.mod-commodity .pay-line .pay-now{
+    margin-right: 5px;
+}
+.mod-commodity .user-info .txt-info{
+    float: left;
+    width: 270px;
+}
+.mod-commodity .txt-info li{
+    float: left;
+    width: 270px;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    background-color: #ededed;
+    overflow: hidden;
+}
+.mod-commodity .txt-info span{
+    display: inline-block;
+    height: 50px;
+}
+.mod-commodity .txt-info .title{
+    width: 70px;
+    padding-right: 20px;
+    text-align: right;
+}
+.mod-commodity .txt-info .name em{
+    font-size: 15px;
+}
+.mod-commodity .txt-info .money-left .value{
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff6b00;
+}
+.mod-commodity .user-info .pic{
+    float: right;
+    width: 125px;
+    height: 155px;
+    overflow: hidden;
+}
+.mod-commodity .for-member-card{
+    display: none;
+    margin-top: 15px;
+}

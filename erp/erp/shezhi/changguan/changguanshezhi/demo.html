@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>场馆信息设置</title>
+    <link rel="stylesheet" href="../../../lib/css/reset.css"/>
+    <script src="../../../lib/js/require.min.js"></script>
+
+</head>
+<body style="height: 1500px;">
+    <!--场馆信息设置 start-->
+    <link rel="stylesheet" href="mod-venue-info.css"/>
+    <div class="mod-venue-info">
+        <div class="header">
+            <span class="check-msg">已经审核通过</span>
+            <a href="#" class="huiyuanka serv-btn">会员卡</a>
+            <a href="#" class="tiyanquan serv-btn">体验券</a>
+            <span class="btn-msg">在线服务：</span>
+        </div>
+        <div class="content">
+            <div class="region-btn region">
+                <a href="#" class="cm">提交</a>
+                <span>审核通过后，您的场馆信息将会在运动世界显示</span>
+            </div>
+            <div class="region-base region">
+                <div class="region-title ms-yh">
+                    基本信息
+                </div>
+                <div class="region-content fd-clr">
+                    <div class="area-base-left area-left">
+                        <div class="area-title">
+                            <a href="#" class="save">保存</a>
+                        </div>
+                        <div class="area-content fd-clr">
+                            <div class="left-lines">
+                                <div class="row fd-clr">
+                                    <span class="row-title">场馆名称</span>
+                                    <div class="row-content">
+                                        <input type="text"/>
+                                    </div>
+                                </div>
+                                <div class="row fd-clr mem">
+                                    <span class="row-title">会员级别</span>
+                                    <div class="row-content">
+                                        <div class="mem-cascade fd-clr">
+                                            <div class="mem-level mem-level1">
+                                                <select  class="">
+                                                    <option value="1">浙江省</option>
+                                                    <option value="2">湖南省</option>
+                                                </select>
+                                            </div>
+                                            <div class="mem-level mem-level2">
+                                                <select  class="" data-parrent-val="1">
+                                                    <option value="1.1">杭州市</option>
+                                                    <option value="1.2">温州市</option>
+                                                </select>
+                                                <select  class="" data-parrent-val="2">
+                                                    <option value="2.1">长沙市</option>
+                                                    <option value="2.2">湘潭市</option>
+                                                </select>
+                                            </div>
+                                            <div class="mem-level mem-level3">
+                                                <select  class="" data-parrent-val="1.1">
+                                                    <option value="1.1.1">滨江区</option>
+                                                    <option value="1.1.2">西湖区</option>
+                                                </select>
+                                                <select  class="" data-parrent-val="1.2">
+                                                    <option value="1.2.1">温州县1</option>
+                                                    <option value="1.2.2">温州县2</option>
+                                                </select>
+                                                <select  class="" data-parrent-val="2.1">
+                                                    <option value="2.1.1">长沙县1</option>
+                                                    <option value="2.1.2">长沙县2</option>
+                                                </select>
+                                                <select  class="" data-parrent-val="2.2">
+                                                    <option value="2.2.1">湘潭某县1</option>
+                                                    <option value="2.2.2">湘潭某县2</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <textarea name="" placeholder="详细地址"></textarea>
+                                    </div>
+                                </div>
+                                <div class="row fd-clr">
+                                    <span class="row-title">联系电话</span>
+                                    <div class="row-content">
+                                        <input type="text"/>
+                                    </div>
+                                </div>
+                                <div class="row fd-clr">
+                                    <span class="row-title">手&nbsp;&nbsp;机&nbsp;&nbsp;号</span>
+                                    <div class="row-content">
+                                        <input type="text"/>
+                                    </div>
+                                </div>
+                                <div class="row fd-clr service-row">
+                                    <span class="row-title">场馆服务</span>
+                                    <div class="row-content">
+                                        <textarea></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-lines">
+                                <div class="row item fd-clr">
+                                    <span class="row-title">运动项目</span>
+                                    <div class="row-content fd-clr">
+                                        <div class="show-span fd-clr">
+                                            <div class="height"></div>
+                                        </div>
+                                        <div class="contain">
+                                            <div class="ball fd-clr">
+                                                <div class="main">
+                                                    <span class="label">球类</span>
+                                                </div>
+                                                <div class="detail fd-clr">
+                                                    <span data-sport-id="1.1">足球</span>
+                                                    <span data-sport-id="1.2">羽毛球</span>
+                                                    <span data-sport-id="1.3">乒乓球</span>
+                                                    <span data-sport-id="1.4">篮球</span>
+                                                    <span data-sport-id="1.5">排球</span>
+                                                </div>
+                                            </div>
+                                            <div class="dance fd-clr">
+                                                <div class="main">
+                                                    <span class="label">舞蹈</span>
+                                                </div>
+                                                <div class="detail fd-clr">
+                                                    <span data-sport-id="2.1">街舞</span>
+                                                    <span data-sport-id="2.2">健身操</span>
+                                                    <span data-sport-id="2.3">拉丁舞</span>
+                                                    <span data-sport-id="2.4">肚皮舞</span>
+                                                    <span data-sport-id="2.5">钢管舞</span>
+                                                    <span data-sport-id="2.6">竞技健美操</span>
+                                                </div>
+                                            </div>
+                                            <div class="water-sport fd-clr">
+                                                <div class="main">
+                                                    <span class="label">水上运动</span>
+                                                </div>
+                                                <div class="detail fd-clr">
+                                                    <span data-sport-id="3.1">水上运动1</span>
+                                                    <span data-sport-id="3.2">水上运动2</span>
+                                                    <span data-sport-id="3.3">水上3</span>
+                                                    <span data-sport-id="3.4">水上运动4</span>
+                                                    <span data-sport-id="3.5">水上运动5</span>
+                                                </div>
+                                            </div>
+                                            <div class="combat fd-clr">
+                                                <div class="main">
+                                                    <span class="label">搏击</span>
+                                                </div>
+                                                <div class="detail fd-clr">
+                                                    <span data-sport-id="4.1">空手道</span>
+                                                    <span data-sport-id="4.2">柔道</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row fd-clr proportion">
+                                    <span class="row-title">场馆面积</span>
+                                    <div class="row-content">
+                                        <input type="text"/><span class="unit">平方米</span>
+                                    </div>
+                                </div>
+                                <div class="row fd-clr intro">
+                                    <span class="row-title">场地介绍</span>
+                                    <div class="row-content">
+                                        <textarea ></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="area-base-right area-right">
+                        <div class="area-title">
+                            <a href="#" class="save">保存</a>
+                        </div>
+
+                        <div class="area-content">
+                            <div class="name">场馆照片</div>
+                            <ul class="fd-clr">
+                                <li>
+                                    <img src="../../../img/upload.png" alt=""/>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="region-quali region">
+                <div class="region-title ms-yh">
+                    资格信息（不可更改）
+                </div>
+                <div class="region-content fd-clr">
+                    <div class="area-quali-left area-left">
+                        <div class="area-title">
+                            <a href="#" class="save">保存</a>
+                        </div>
+                        <div class="area-content fd-clr">
+                            <div class="left-lines">
+                                <div class="row fd-clr">
+                                    <span class="row-title">公司名称</span>
+                                    <div class="row-content">
+                                        <input type="text"/>
+                                    </div>
+                                </div>
+                                <div class="row fd-clr reg-type">
+                                    <span class="row-title">注册类型</span>
+                                    <div class="row-content">
+                                        <select >
+                                            <option value="1">名营企业</option>
+                                            <option value="1">国有企业</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="row fd-clr">
+                                    <span class="row-title">姓名法人</span>
+                                    <div class="row-content">
+                                        <input type="text"/>
+                                    </div>
+                                </div>
+                                <div class="row fd-clr">
+                                    <span class="row-title">联系方式</span>
+                                    <div class="row-content">
+                                        <input type="text"/>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-lines">
+                                <div class="row item fd-clr">
+                                    <span class="row-title">运动项目</span>
+                                    <div class="row-content fd-clr">
+                                        <div class="show-span fd-clr">
+                                            <div class="height"></div>
+                                        </div>
+                                        <div class="contain">
+                                            <div class="ball fd-clr">
+                                                <div class="main">
+                                                    <span class="label">球类</span>
+                                                </div>
+                                                <div class="detail fd-clr">
+                                                    <span data-sport-id="1.1">足球</span>
+                                                    <span data-sport-id="1.2">羽毛球</span>
+                                                    <span data-sport-id="1.3">乒乓球</span>
+                                                    <span data-sport-id="1.4">篮球</span>
+                                                    <span data-sport-id="1.5">排球</span>
+                                                </div>
+                                            </div>
+                                            <div class="dance fd-clr">
+                                                <div class="main">
+                                                    <span class="label">舞蹈</span>
+                                                </div>
+                                                <div class="detail fd-clr">
+                                                    <span data-sport-id="2.1">街舞</span>
+                                                    <span data-sport-id="2.2">健身操</span>
+                                                    <span data-sport-id="2.3">拉丁舞</span>
+                                                    <span data-sport-id="2.4">肚皮舞</span>
+                                                    <span data-sport-id="2.5">钢管舞</span>
+                                                    <span data-sport-id="2.6">竞技健美操</span>
+                                                </div>
+                                            </div>
+                                            <div class="water-sport fd-clr">
+                                                <div class="main">
+                                                    <span class="label">水上运动</span>
+                                                </div>
+                                                <div class="detail fd-clr">
+                                                    <span data-sport-id="3.1">水上运动1</span>
+                                                    <span data-sport-id="3.2">水上运动2</span>
+                                                    <span data-sport-id="3.3">水上3</span>
+                                                    <span data-sport-id="3.4">水上运动4</span>
+                                                    <span data-sport-id="3.5">水上运动5</span>
+                                                </div>
+                                            </div>
+                                            <div class="combat fd-clr">
+                                                <div class="main">
+                                                    <span class="label">搏击</span>
+                                                </div>
+                                                <div class="detail fd-clr">
+                                                    <span data-sport-id="4.1">空手道</span>
+                                                    <span data-sport-id="4.2">柔道</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row fd-clr mem">
+                                    <span class="row-title">公司地址</span>
+                                    <div class="row-content">
+                                        <div class="mem-cascade fd-clr">
+                                            <div class="mem-level mem-level1">
+                                                <select  class="">
+                                                    <option value="1">浙江省</option>
+                                                    <option value="2">湖南省</option>
+                                                </select>
+                                            </div>
+                                            <div class="mem-level mem-level2">
+                                                <select  class="" data-parrent-val="1">
+                                                    <option value="1.1">杭州市</option>
+                                                    <option value="1.2">温州市</option>
+                                                </select>
+                                                <select  class="" data-parrent-val="2">
+                                                    <option value="2.1">长沙市</option>
+                                                    <option value="2.2">湘潭市</option>
+                                                </select>
+                                            </div>
+                                            <div class="mem-level mem-level3">
+                                                <select  class="" data-parrent-val="1.1">
+                                                    <option value="1.1.1">滨江区</option>
+                                                    <option value="1.1.2">西湖区</option>
+                                                </select>
+                                                <select  class="" data-parrent-val="1.2">
+                                                    <option value="1.2.1">温州某县1</option>
+                                                    <option value="1.2.2">温州某县2</option>
+                                                </select>
+                                                <select  class="" data-parrent-val="2.1">
+                                                    <option value="2.1.1">长沙某县1</option>
+                                                    <option value="2.1.2">长沙某县2</option>
+                                                </select>
+                                                <select  class="" data-parrent-val="2.2">
+                                                    <option value="2.2.1">湘潭某县1</option>
+                                                    <option value="2.2.2">湘潭某县2</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <textarea name="" placeholder="详细地址"></textarea>
+                                    </div>
+                                </div>
+                                <div class="row fd-clr bank">
+                                    <span class="row-title">场馆面积</span>
+                                    <div class="row-content">
+                                        <input type="text" class="account-no" placeholder="6222300052123587"/>
+                                        <span>-</span>
+                                        <input type="text" class="account-name" placeholder="户名"/>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="area-quali-right area-right">
+                        <div class="area-title">
+                            <a href="#" class="save">保存</a>
+                        </div>
+
+                        <div class="area-content">
+                            <div class="name">资格证书</div>
+                            <p>营业执照、税务登记证、组织结构代码证</p>
+                            <ul class="fd-clr">
+                                <li>
+                                    <img src="../../../img/upload.png" alt=""/>
+                                </li>
+                                <li>
+                                    <img src="../../../img/upload.png" alt=""/>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="mod-venue-info.js"></script>
+    <!--场馆信息设置 end-->
+
+</body>
+</html>

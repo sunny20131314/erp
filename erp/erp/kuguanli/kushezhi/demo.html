@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>显示商品设置</title>
+    <link rel="stylesheet" href="../../lib/css/reset.css"/>
+    <script src="../../lib/js/require.min.js"></script>
+    <script src="./demo.js"></script>
+</head>
+<body>
+    <!--demo start-->
+    <button class="demo-set">显示库存</button>
+    <!--demo end-->
+
+    <!--set start-->
+    <link rel="stylesheet" href="./mod-set.css"/>
+    <div class="mod-set">
+        <div class="header">
+            <span class="crumb">商品>>编辑</span>
+            <a class="close" href="#"></a>
+        </div>
+        <div class="content">
+            <div class="name fd-clr">
+                <span>商品名称</span>
+                <input type="text"/>
+            </div>
+            <div class="type fd-clr">
+                <span>商品类型</span>
+                <select name="type" id="type">
+                    <option value="1"selected>请选择</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <button class="type-set">设置</button>
+            </div>
+            <div class="unit fd-clr">
+                <span>单&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;位</span>
+                <select name="unit" id="unit">
+                    <option value="1"selected>请选择</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <button class="unit-set">设置</button>
+            </div>
+            <div class="price fd-clr">
+                <span>价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;格</span>
+                <div class="right">
+                    <div class="cost">
+                        <span>成本</span>
+                        <input type="text" value="999.0"/>
+                    </div>
+                    <div class="sale">
+                        <span>销售</span>
+                        <input type="text" value="1111.0"/>
+                    </div>
+                    <div class="carry-out">
+                        <span>外卖</span>
+                        <input type="text" value="1999.0"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer fd-clr">
+            <div class="pic fd-clr">
+                <span>上传图片</span>
+                <div class="detail fd-clr">
+                    <span>已上传</span>
+                    <button class="edit">编辑</button>
+                </div>
+            </div>
+            <div class="commodity-detail fd-clr">
+                <a class="selected" href="#">上架</a>
+                <a href="#">下架</a>
+            </div>
+            <a class="btn" href="#">保存</a>
+        </div>
+    </div>
+    <!--set end-->
+
+
+    <!--type-edit-->
+    <div class="mod-type-edit fd-clr">
+        <div class="header">
+            <a class="close" href="#"></a>
+        </div>
+        <div class="content fd-clr">
+            <div class="contain fd-clr">
+                <span class="fd-clr item">
+                    <span class="name">饮料</span>
+                    <span class="pic"></span>
+                </span>
+                <span class="fd-clr item">
+                    <span class="name">食品</span>
+                    <span class="pic"></span>
+                </span>
+                <span class="fd-clr item">
+                    <span class="name">用具</span>
+                    <span class="pic"></span>
+                </span>
+                <span class="fd-clr item">
+                    <span class="name">护具</span>
+                    <span class="pic"></span>
+                </span>
+                <span class="fd-clr item">
+                    <span class="name">饮料</span>
+                    <span class="pic"></span>
+                </span>
+                <span class="fd-clr item">
+                    <span class="name">食品</span>
+                    <span class="pic"></span>
+                </span>
+                <span class="fd-clr item">
+                    <span class="name">用具</span>
+                    <span class="pic"></span>
+                </span>
+                <span class="fd-clr item">
+                    <span class="name">护具</span>
+                    <span class="pic"></span>
+                </span>
+            </div>
+            <div class="add fd-clr">
+                <input type="text" placeholder="名称"/>
+                <button class="add-type">添加</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!--unit-edit-->
+    <div class="mod-unit-edit">
+        <div class="header">
+            <a class="close" href="#"></a>
+        </div>
+        <div class="content fd-clr">
+            <div class="contain fd-clr">
+                <span class="fd-clr item">
+                    <span class="name">饮料</span>
+                    <span class="pic"></span>
+                </span>
+                <span class="fd-clr item">
+                    <span class="name">食品</span>
+                    <span class="pic"></span>
+                </span>
+                <span class="fd-clr item">
+                    <span class="name">用具</span>
+                    <span class="pic"></span>
+                </span>
+                <span class="fd-clr item">
+                    <span class="name">护具</span>
+                    <span class="pic"></span>
+                </span>
+                <span class="fd-clr item">
+                    <span class="name">饮料</span>
+                    <span class="pic"></span>
+                </span>
+                <span class="fd-clr item">
+                    <span class="name">食品</span>
+                    <span class="pic"></span>
+                </span>
+                <span class="fd-clr item">
+                    <span class="name">用具</span>
+                    <span class="pic"></span>
+                </span>
+                <span class="fd-clr item">
+                    <span class="name">护具</span>
+                    <span class="pic"></span>
+                </span>
+            </div>
+            <div class="add fd-clr">
+                <input type="text" placeholder="名称"/>
+                <button class="add-unit">添加</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!--自拍照片编辑 start-->
+    <div class="mod-member-edit">
+        <div class="header">
+            <a class="close" href="#" ></a>
+        </div>
+        <div class="content">
+            <div class="pict">
+                <img src="../../img/member-edit-pict.png" alt="图片" width="120" height="120"/>
+            </div>
+            <div class="photo">
+                <img src="../../img/member-edit-photo.png" alt="图片" width="241" height="240"/>
+            </div>
+            <button class="take-photo">拍照</button>
+        </div>
+        <button class="btn">保存</button>
+
+    </div>
+    <!--自拍照片编辑 end-->
+
+
+</body>
+</html>
+
+
+
