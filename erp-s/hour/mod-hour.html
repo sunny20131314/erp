@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../lib/css/reset.css"/>
+
+    <script src="../lib/js/require.min.js"></script>
+
+    <title>场地价格</title>
+</head>
+<body>
+
+    <link rel="stylesheet" href="mod-hour.css"/>
+    <script src="./mod-hour.js"></script>
+    <div class="mod-hour">
+        <div class="header">
+            <div class="sport-item">
+                <span>运动项目</span>
+                <select name="item">
+                    <option value="1" selected>请选择</option>
+                    <option value="2">羽毛球</option>
+                    <option value="3">足球</option>
+                    <option value="4">篮球</option>
+                </select>
+            </div>
+            <div class="set">
+                <span class="package">
+                    <img src="../img/u508.png" alt=""/>
+                    <span>套餐设置</span>
+                </span>
+                <span class="price">
+                    <img src="../img/u447.png" alt=""/>
+                    <span>设置价格</span>
+                </span>
+                <span class="place-close">
+                    <img src="../img/u443.png" alt=""/>
+                    <span>场地关闭</span>
+                </span>
+                <button class="return-list">返回列表</button>
+            </div>
+        </div>
+        <div class="content">
+            <ul class="week fd-clr">
+                <li>星期六</li>
+                <li>星期日</li>
+                <li>星期一</li>
+                <li>星期二</li>
+                <li>星期三</li>
+                <li>星期四</li>
+                <li>星期五</li>
+                <li>节假日</li>
+            </ul>
+            <ul class="title-header fd-clr">
+                <li class="width">
+                    <span class="place">场地</span>
+                    <span class="time">时间</span>
+                </li>
+                <li class="less">9:00</li>
+                <li class="less">10:00</li>
+                <li class="less">11:00</li>
+                <li class="less">12:00</li>
+                <li class="less">13:00</li>
+                <li class="less">14:00</li>
+                <li class="less">15:00</li>
+                <li class="less">16:00</li>
+                <li class="less">17:00</li>
+                <li class="less">18:00</li>
+                <li class="less">19:00</li>
+                <li class="less">20:00</li>
+                <li class="less">21:00</li>
+            </ul>
+            <ul class="place-time">
+                <li>
+                    <ul class="place fd-clr">
+                        <li class="width">01</li>
+                        <li class="less" data-start-time="9:00-10:00">50 | 70</li>
+                        <li class="less" data-start-time="10:00-11:00">50 | 70</li>
+                        <li class="less" data-start-time="11:00-12:00">50 | 70</li>
+                        <li class="less" data-start-time="12:00-13:00">50 | 70</li>
+                        <li class="less" data-start-time="13:00-14:00">50 | 70</li>
+                        <li class="less" data-start-time="14:00-15:00">50 | 70</li>
+                        <li class="less" data-start-time="15:00-16:00">50 | 70</li>
+                        <li class="less" data-start-time="16:00-17:00">50 | 70</li>
+                        <li class="less" data-start-time="17:00-18:00">50 | 70</li>
+                        <li class="less" data-start-time="18:00-19:00">100 | 120</li>
+                        <li class="less" data-start-time="19:00-20:00">100 | 120</li>
+                        <li class="less" data-start-time="20:00-21:00">100 | 120</li>
+                        <li class="less" data-start-time="21:00-22:00">100 | 120</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="place fd-clr">
+                        <li class="width">02</li>
+                        <li class="less" data-start-time="9:00-10:00">50 | 70</li>
+                        <li class="less" data-start-time="10:00-11:00">50 | 70</li>
+                        <li class="less" data-start-time="11:00-12:00">50 | 70</li>
+                        <li class="less" data-start-time="12:00-13:00">50 | 70</li>
+                        <li class="less" data-start-time="13:00-14:00">50 | 70</li>
+                        <li class="less" data-start-time="14:00-15:00">50 | 70</li>
+                        <li class="less" data-start-time="15:00-16:00">50 | 70</li>
+                        <li class="less" data-start-time="16:00-17:00">50 | 70</li>
+                        <li class="less" data-start-time="17:00-18:00">50 | 70</li>
+                        <li class="less" data-start-time="18:00-19:00">100 | 120</li>
+                        <li class="less" data-start-time="19:00-20:00">100 | 120</li>
+                        <li class="less" data-start-time="20:00-21:00">100 | 120</li>
+                        <li class="less" data-start-time="21:00-22:00">100 | 120</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="place fd-clr">
+                        <li class="width">03</li>
+                        <li class="less" data-start-time="9:00-10:00">50 | 70</li>
+                        <li class="less" data-start-time="10:00-11:00">50 | 70</li>
+                        <li class="less" data-start-time="11:00-12:00">50 | 70</li>
+                        <li class="less" data-start-time="12:00-13:00">50 | 70</li>
+                        <li class="less" data-start-time="13:00-14:00">50 | 70</li>
+                        <li class="less" data-start-time="14:00-15:00">50 | 70</li>
+                        <li class="less" data-start-time="15:00-16:00">50 | 70</li>
+                        <li class="less" data-start-time="16:00-17:00">50 | 70</li>
+                        <li class="less" data-start-time="17:00-18:00">50 | 70</li>
+                        <li class="less" data-start-time="18:00-19:00">100 | 120</li>
+                        <li class="less" data-start-time="19:00-20:00">100 | 120</li>
+                        <li class="less" data-start-time="20:00-21:00">100 | 120</li>
+                        <li class="less" data-start-time="21:00-22:00">100 | 120</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="place fd-clr">
+                        <li class="width">04</li>
+                        <li class="less" data-start-time="9:00-10:00">50 | 70</li>
+                        <li class="less" data-start-time="10:00-11:00">50 | 70</li>
+                        <li class="less" data-start-time="11:00-12:00">50 | 70</li>
+                        <li class="less" data-start-time="12:00-13:00">50 | 70</li>
+                        <li class="less" data-start-time="13:00-14:00">50 | 70</li>
+                        <li class="less" data-start-time="14:00-15:00">50 | 70</li>
+                        <li class="less" data-start-time="15:00-16:00">50 | 70</li>
+                        <li class="less" data-start-time="16:00-17:00">50 | 70</li>
+                        <li class="less" data-start-time="17:00-18:00">50 | 70</li>
+                        <li class="less" data-start-time="18:00-19:00">100 | 120</li>
+                        <li class="less" data-start-time="19:00-20:00">100 | 120</li>
+                        <li class="less" data-start-time="20:00-21:00">100 | 120</li>
+                        <li class="less" data-start-time="21:00-22:00">100 | 120</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="place fd-clr">
+                        <li class="width">05</li>
+                        <li class="less" data-start-time="9:00-10:00">50 | 70</li>
+                        <li class="less" data-start-time="10:00-11:00">50 | 70</li>
+                        <li class="less" data-start-time="11:00-12:00">50 | 70</li>
+                        <li class="less" data-start-time="12:00-13:00">50 | 70</li>
+                        <li class="less" data-start-time="13:00-14:00">50 | 70</li>
+                        <li class="less" data-start-time="14:00-15:00">50 | 70</li>
+                        <li class="less" data-start-time="15:00-16:00">50 | 70</li>
+                        <li class="less" data-start-time="16:00-17:00">50 | 70</li>
+                        <li class="less" data-start-time="17:00-18:00">50 | 70</li>
+                        <li class="less" data-start-time="18:00-19:00">100 | 120</li>
+                        <li class="less" data-start-time="19:00-20:00">100 | 120</li>
+                        <li class="less" data-start-time="20:00-21:00">100 | 120</li>
+                        <li class="less" data-start-time="21:00-22:00">100 | 120</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="place fd-clr">
+                        <li class="width">06</li>
+                        <li class="less" data-start-time="9:00-10:00">50 | 70</li>
+                        <li class="less" data-start-time="10:00-11:00">50 | 70</li>
+                        <li class="less" data-start-time="11:00-12:00">50 | 70</li>
+                        <li class="less" data-start-time="12:00-13:00">50 | 70</li>
+                        <li class="less" data-start-time="13:00-14:00">50 | 70</li>
+                        <li class="less" data-start-time="14:00-15:00">50 | 70</li>
+                        <li class="less" data-start-time="15:00-16:00">50 | 70</li>
+                        <li class="less" data-start-time="16:00-17:00">50 | 70</li>
+                        <li class="less" data-start-time="17:00-18:00">50 | 70</li>
+                        <li class="less" data-start-time="18:00-19:00">100 | 120</li>
+                        <li class="less" data-start-time="19:00-20:00">100 | 120</li>
+                        <li class="less" data-start-time="20:00-21:00">100 | 120</li>
+                        <li class="less" data-start-time="21:00-22:00">100 | 120</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="place fd-clr">
+                        <li class="width">07</li>
+                        <li class="less" data-start-time="9:00-10:00">50 | 70</li>
+                        <li class="less" data-start-time="10:00-11:00">50 | 70</li>
+                        <li class="less" data-start-time="11:00-12:00">50 | 70</li>
+                        <li class="less" data-start-time="12:00-13:00">50 | 70</li>
+                        <li class="less" data-start-time="13:00-14:00">50 | 70</li>
+                        <li class="less" data-start-time="14:00-15:00">50 | 70</li>
+                        <li class="less" data-start-time="15:00-16:00">50 | 70</li>
+                        <li class="less" data-start-time="16:00-17:00">50 | 70</li>
+                        <li class="less" data-start-time="17:00-18:00">50 | 70</li>
+                        <li class="less" data-start-time="18:00-19:00">100 | 120</li>
+                        <li class="less" data-start-time="19:00-20:00">100 | 120</li>
+                        <li class="less" data-start-time="20:00-21:00">100 | 120</li>
+                        <li class="less" data-start-time="21:00-22:00">100 | 120</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="place fd-clr">
+                        <li class="width">08</li>
+                        <li class="less" data-start-time="9:00-10:00">50 | 70</li>
+                        <li class="less" data-start-time="10:00-11:00">50 | 70</li>
+                        <li class="less" data-start-time="11:00-12:00">50 | 70</li>
+                        <li class="less" data-start-time="12:00-13:00">50 | 70</li>
+                        <li class="less" data-start-time="13:00-14:00">50 | 70</li>
+                        <li class="less" data-start-time="14:00-15:00">50 | 70</li>
+                        <li class="less" data-start-time="15:00-16:00">50 | 70</li>
+                        <li class="less" data-start-time="16:00-17:00">50 | 70</li>
+                        <li class="less" data-start-time="17:00-18:00">50 | 70</li>
+                        <li class="less" data-start-time="18:00-19:00">100 | 120</li>
+                        <li class="less" data-start-time="19:00-20:00">100 | 120</li>
+                        <li class="less" data-start-time="20:00-21:00">100 | 120</li>
+                        <li class="less" data-start-time="21:00-22:00">100 | 120</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="place fd-clr">
+                        <li class="width">09</li>
+                        <li class="less" data-start-time="9:00-10:00">50 | 70</li>
+                        <li class="less" data-start-time="10:00-11:00">50 | 70</li>
+                        <li class="less" data-start-time="11:00-12:00">50 | 70</li>
+                        <li class="less" data-start-time="12:00-13:00">50 | 70</li>
+                        <li class="less" data-start-time="13:00-14:00">50 | 70</li>
+                        <li class="less" data-start-time="14:00-15:00">50 | 70</li>
+                        <li class="less" data-start-time="15:00-16:00">50 | 70</li>
+                        <li class="less" data-start-time="16:00-17:00">50 | 70</li>
+                        <li class="less" data-start-time="17:00-18:00">50 | 70</li>
+                        <li class="less" data-start-time="18:00-19:00">100 | 120</li>
+                        <li class="less" data-start-time="19:00-20:00">100 | 120</li>
+                        <li class="less" data-start-time="20:00-21:00">100 | 120</li>
+                        <li class="less" data-start-time="21:00-22:00">100 | 120</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="place fd-clr">
+                        <li class="width">10</li>
+                        <li class="less" data-start-time="9:00-10:00">50 | 70</li>
+                        <li class="less" data-start-time="10:00-11:00">50 | 70</li>
+                        <li class="less" data-start-time="11:00-12:00">50 | 70</li>
+                        <li class="less" data-start-time="12:00-13:00">50 | 70</li>
+                        <li class="less" data-start-time="13:00-14:00">50 | 70</li>
+                        <li class="less" data-start-time="14:00-15:00">50 | 70</li>
+                        <li class="less" data-start-time="15:00-16:00">50 | 70</li>
+                        <li class="less" data-start-time="16:00-17:00">50 | 70</li>
+                        <li class="less" data-start-time="17:00-18:00">50 | 70</li>
+                        <li class="less" data-start-time="18:00-19:00">100 | 120</li>
+                        <li class="less" data-start-time="19:00-20:00">100 | 120</li>
+                        <li class="less" data-start-time="20:00-21:00">100 | 120</li>
+                        <li class="less" data-start-time="21:00-22:00">100 | 120</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="place fd-clr">
+                        <li class="width">11</li>
+                        <li class="less" data-start-time="9:00-10:00">50 | 70</li>
+                        <li class="less" data-start-time="10:00-11:00">50 | 70</li>
+                        <li class="less" data-start-time="11:00-12:00">50 | 70</li>
+                        <li class="less" data-start-time="12:00-13:00">50 | 70</li>
+                        <li class="less" data-start-time="13:00-14:00">50 | 70</li>
+                        <li class="less" data-start-time="14:00-15:00">50 | 70</li>
+                        <li class="less" data-start-time="15:00-16:00">50 | 70</li>
+                        <li class="less" data-start-time="16:00-17:00">50 | 70</li>
+                        <li class="less" data-start-time="17:00-18:00">50 | 70</li>
+                        <li class="less" data-start-time="18:00-19:00">100 | 120</li>
+                        <li class="less" data-start-time="19:00-20:00">100 | 120</li>
+                        <li class="less" data-start-time="20:00-21:00">100 | 120</li>
+                        <li class="less" data-start-time="21:00-22:00">100 | 120</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="place fd-clr">
+                        <li class="width">12</li>
+                        <li class="less" data-start-time="9:00-10:00">50 | 70</li>
+                        <li class="less" data-start-time="10:00-11:00">50 | 70</li>
+                        <li class="less" data-start-time="11:00-12:00">50 | 70</li>
+                        <li class="less" data-start-time="12:00-13:00">50 | 70</li>
+                        <li class="less" data-start-time="13:00-14:00">50 | 70</li>
+                        <li class="less" data-start-time="14:00-15:00">50 | 70</li>
+                        <li class="less" data-start-time="15:00-16:00">50 | 70</li>
+                        <li class="less" data-start-time="16:00-17:00">50 | 70</li>
+                        <li class="less" data-start-time="17:00-18:00">50 | 70</li>
+                        <li class="less" data-start-time="18:00-19:00">100 | 120</li>
+                        <li class="less" data-start-time="19:00-20:00">100 | 120</li>
+                        <li class="less" data-start-time="20:00-21:00">100 | 120</li>
+                        <li class="less" data-start-time="21:00-22:00">100 | 120</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="place fd-clr">
+                        <li class="width">13</li>
+                        <li class="less" data-start-time="9:00-10:00">50 | 70</li>
+                        <li class="less" data-start-time="10:00-11:00">50 | 70</li>
+                        <li class="less" data-start-time="11:00-12:00">50 | 70</li>
+                        <li class="less" data-start-time="12:00-13:00">50 | 70</li>
+                        <li class="less" data-start-time="13:00-14:00">50 | 70</li>
+                        <li class="less" data-start-time="14:00-15:00">50 | 70</li>
+                        <li class="less" data-start-time="15:00-16:00">50 | 70</li>
+                        <li class="less" data-start-time="16:00-17:00">50 | 70</li>
+                        <li class="less" data-start-time="17:00-18:00">50 | 70</li>
+                        <li class="less" data-start-time="18:00-19:00">100 | 120</li>
+                        <li class="less" data-start-time="19:00-20:00">100 | 120</li>
+                        <li class="less" data-start-time="20:00-21:00">100 | 120</li>
+                        <li class="less" data-start-time="21:00-22:00">100 | 120</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="place fd-clr">
+                        <li class="width">14</li>
+                        <li class="less" data-start-time="9:00-10:00">50 | 70</li>
+                        <li class="less" data-start-time="10:00-11:00">50 | 70</li>
+                        <li class="less" data-start-time="11:00-12:00">50 | 70</li>
+                        <li class="less" data-start-time="12:00-13:00">50 | 70</li>
+                        <li class="less" data-start-time="13:00-14:00">50 | 70</li>
+                        <li class="less" data-start-time="14:00-15:00">50 | 70</li>
+                        <li class="less" data-start-time="15:00-16:00">50 | 70</li>
+                        <li class="less" data-start-time="16:00-17:00">50 | 70</li>
+                        <li class="less" data-start-time="17:00-18:00">50 | 70</li>
+                        <li class="less" data-start-time="18:00-19:00">100 | 120</li>
+                        <li class="less" data-start-time="19:00-20:00">100 | 120</li>
+                        <li class="less" data-start-time="20:00-21:00">100 | 120</li>
+                        <li class="less" data-start-time="21:00-22:00">100 | 120</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="place fd-clr">
+                        <li class="width">15</li>
+                        <li class="less" data-start-time="9:00-10:00">50 | 70</li>
+                        <li class="less" data-start-time="10:00-11:00">50 | 70</li>
+                        <li class="less" data-start-time="11:00-12:00">50 | 70</li>
+                        <li class="less" data-start-time="12:00-13:00">50 | 70</li>
+                        <li class="less" data-start-time="13:00-14:00">50 | 70</li>
+                        <li class="less" data-start-time="14:00-15:00">50 | 70</li>
+                        <li class="less" data-start-time="15:00-16:00">50 | 70</li>
+                        <li class="less" data-start-time="16:00-17:00">50 | 70</li>
+                        <li class="less" data-start-time="17:00-18:00">50 | 70</li>
+                        <li class="less" data-start-time="18:00-19:00">100 | 120</li>
+                        <li class="less" data-start-time="19:00-20:00">100 | 120</li>
+                        <li class="less" data-start-time="20:00-21:00">100 | 120</li>
+                        <li class="less" data-start-time="21:00-22:00">100 | 120</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!--package start-->
+    <div class="mod-package">
+        <div class="header">
+            <span>场地&gt;&gt;套餐设置</span>
+            <a class="close" href="#">
+                <img src="../img/close-white.png" alt="关闭" width="25" height="25"/>
+            </a>
+            <a class="submit" href="#">
+                <img src="../img/submit.png" alt="确定" width="25" height="25"/>
+            </a>
+        </div>
+        <div class="content"></div>
+        <div class="footer">设置成售卖套餐吗</div>
+    </div>
+
+    <!--price start-->
+    <div class="mod-price">
+        <div class="header">
+            <span>场地&gt;&gt;设置价格</span>
+            <a class="close" href="#">
+                <img src="../img/close-white.png" alt="关闭" width="25" height="25"/>
+            </a>
+            <a class="submit" href="#">
+                <img src="../img/submit.png" alt="确定" width="25" height="25"/>
+            </a>
+        </div>
+        <div class="content">
+            <div class="online fd-clr">
+                <span>线上价格</span>
+                <input type="text"/>
+            </div>
+            <div class="offline fd-clr">
+                <span>线下价格</span>
+                <input type="text"/>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

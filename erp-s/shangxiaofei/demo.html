@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>商品消费列表</title>
+    <link rel="stylesheet" href="../lib/css/reset.css"/>
+    <script src="../lib/js/require.min.js"></script>
+    <script src="demo.js"></script>
+
+    <link rel="stylesheet" href="../common/css/mod-money-msg.css"/>
+</head>
+<body>
+
+    <!--for demo start-->
+    <button class="demo-commodity">显示商品消费</button>
+    <!--for demo end-->
+
+    <!--消费 start-->
+    <link rel="stylesheet" href="mod-commodity.css"/>
+    <div class="mod-commodity">
+        <div class="header">
+            <span class="crumb">商品>>消费</span>
+            <select name="sport" class="sport">
+                <option value="1" selected>游泳</option>
+                <option value="2">2运动</option>
+                <option value="3">3运动</option>
+            </select>
+            <select name="place-num">
+                <option value="01" selected>01场地</option>
+                <option value="02">02场地</option>
+                <option value="03">03场地</option>
+            </select>
+            <select name="hand-card" class="hand-card">
+                <option value="0" selected>请选择手牌</option>
+                <option value="1">手牌1</option>
+                <option value="2">手牌2</option>
+            </select>
+            <a class="close" href="#" ></a>
+        </div>
+        <div class="content">
+            <div class="scan">
+                <input type="text" placeholder="支持扫描读卡"/>
+                <button></button>
+            </div>
+            <div>
+                 <dl class="list fd-clr">
+                     <dt class="detail">明细</dt>
+                     <dd>
+                         <span class="item">可口可乐250ML</span>
+                         <span class="num">
+                              <a href="#" class="minus"><img src="../img/minus.png" alt="minus"/></a>
+                               <em>3</em>瓶
+                              <a href="#" class="plus"><img src="../img/plus.png" alt="plus"/></a>
+                         </span>
+                         <span class="money">￥9.00</span>
+                         <span class="delete"> <em>删除</em></span>
+                     </dd>
+                     <dd>
+                         <span class="item">可口可乐3瓶</span>
+                         <span class="num">
+                              <a href="#" class="minus"><img src="../img/minus.png" alt="minus"/></a>
+                              <em>3</em>瓶
+                              <a href="#" class="plus"><img src="../img/plus.png" alt="plus"/></a>
+                         </span>
+                         <span class="money">￥9.00</span>
+                         <span class="delete"> <em>删除</em></span>
+                     </dd>
+                     <dd>
+                     <span class="item">红双喜</span>
+                         <span class="num">
+                              <a href="#" class="minus"><img src="../img/minus.png" alt="minus"/></a>
+                              <em>3</em>支
+                              <a href="#" class="plus"><img src="../img/plus.png" alt="plus"/></a>
+                         </span>
+                         <span class="money">￥90.00</span>
+                         <span class="delete"> <em>删除</em></span>
+                     </dd>
+                     <dd>
+                         <span class="item"></span>
+                         <span class="num"></span>
+                         <span class="money"></span>
+                         <span class="delete"></span>
+                     </dd>
+                     <dd>
+                         <span class="item"></span>
+                         <span class="num"></span>
+                         <span class="money"></span>
+                         <span class="delete"></span>
+                     </dd>
+                     <dd>
+                         <span class="item"></span>
+                         <span class="num"></span>
+                         <span class="money"></span>
+                         <span class="delete"></span>
+                     </dd>
+                     <dd>
+                         <span class="item"></span>
+                         <span class="num"></span>
+                         <span class="money"></span>
+                         <span class="delete"></span>
+                     </dd>
+                 </dl>
+            </div>
+            <div class="pay-src fd-clr">
+                <ul class="pay-type fd-clr">
+                    <li class="member">会员卡</li>
+                    <li class="selected">现金</li>
+                    <li class="card">刷卡</li>
+                </ul>
+            </div>
+            <div class="pay-line">
+                <span class="pay-label">支付金额：</span>
+                <span class="pay-amount fd-clr">
+                     <span>&yen;</span>
+                     <input type="text" value="180.00"/>
+                 </span>
+                <a class="edit" href="#">编辑</a>
+                <a class="pay-later" href="#">稍后买单</a>
+                <a class="pay-now" href="#">现付</a>
+            </div>
+            <div class="user-info fd-clr for-member-card">
+                <ul class="txt-info">
+                    <li class="name">
+                        <span class="title">姓名/手机</span>
+                        <span class="value"><em>司徒长了</em>-15088562598</span>
+                    </li>
+                    <li class="money-left">
+                        <span class="title">余额</span>
+                        <span class="value">2500.00</span>
+                    </li>
+                    <li>
+                        <span class="title">有效期</span>
+                        <span class="value">2015.5.1-2015.5.1(有效)</span>
+                    </li>
+                </ul>
+                <div class="pic">
+                    <img src="../img/pic.png" alt="" width="125" height="155"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--消费 end-->
+
+    <!--编辑 start-->
+    <div class="mod-money-msg" id="msg-for-commodity">
+        <div class="header">
+            <span class="crumb">修改备注</span>
+            <a class="close" href="#" ></a>
+        </div>
+        <div class="content">
+            <textarea name="" placeholder="请输入修改备注"></textarea>
+            <button class="btn">保存</button>
+        </div>
+    </div>
+    <!--归还 end-->
+
+
+
+
+</body>
+</html>

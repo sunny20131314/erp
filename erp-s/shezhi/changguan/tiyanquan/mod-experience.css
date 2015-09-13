@@ -1,0 +1,261 @@
+/*.mod-experience*/
+.mod-experience{
+    display: none;
+    width: 598px;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+}
+.mod-experience a{
+    color: #000;
+}
+.mod-experience .header{
+    height: 38px;
+    line-height: 38px;
+    padding: 0 5px;
+    background-color: #ededed;
+
+}
+.mod-experience .header .crumb{
+    padding-left: 10px;
+    font-size: 14px;
+}
+.mod-experience .header .close{
+    float: right;
+    width: 28px;
+    height: 28px;
+    margin-top: 5px;
+    background: url("../../../img/close.png");
+}
+.mod-experience .content{
+}
+.mod-experience .content .scan{
+    float: left;
+    width: 272px;
+    height: 17px;
+    padding: 7px;
+    margin: 17px 0 17px 138px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.mod-experience .scan input{
+    float: left;
+    width: 255px;
+    height: 17px;
+    line-height: 17px;
+    border: none;
+}
+.mod-experience .scan button{
+    float: left;
+    width: 17px;
+    height: 17px;
+    background: url("../../../img/search.png");
+    border: none;
+}
+.mod-experience .new{
+    float: right;
+    width: 66px;
+    height: 24px;
+    margin: 21px 30px auto auto;
+    text-align: center;
+    line-height: 24px;
+    color: #fff;
+    border-radius: 12px;
+    background-color: #1fb2cd;
+    box-shadow: 0 2px 1px 1px #188ea2;
+    text-decoration: none;
+}
+.mod-experience .new:hover{
+    color: #fff !important;
+}
+.mod-experience .coupon-list span{
+    float: left;
+    height: 30px;
+    border-right: 1px solid #ccc;
+    line-height: 30px;
+    text-align: center;
+    overflow: hidden;
+}
+.mod-experience .coupon-list .name{
+    width: 116px;
+}
+.mod-experience .coupon-list .limit{
+    width: 64px;
+}
+.mod-experience .coupon-list .period{
+    width: 140px;
+}
+.mod-experience .coupon-list .price{
+    width: 71px;
+}
+.mod-experience .coupon-list .amount{
+    width: 69px;
+}
+.mod-experience .coupon-list .action{
+    width: 133px;
+}
+.mod-experience .list-header{
+    width: 598px;
+    height: 30px;
+    border-bottom: 1px solid #ccc;
+    line-height: 30px;
+    background-color: #ededed;
+    font-weight: bold;
+}
+.mod-experience .list-header .wrap,
+.mod-experience .list-content ul{
+    width: 599px;
+}
+.mod-experience .list-content{
+    height: 450px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.mod-experience .list-content li{
+    height: 30px;
+}
+.mod-experience .list-content li:nth-child(2n+1){
+    background-color: #f7f7f7;
+}
+.mod-experience .list-content .action a{
+    float: left;
+    width: 52px;
+    height: 22px;
+    border: 1px solid #ccc;
+    margin: 3px 0 0 5px;
+    text-align: center;
+    line-height: 22px;
+    color: #000;
+    border-radius: 11px;
+    text-decoration: none;
+}
+.mod-experience .list-content .action a:hover{
+    color: #fff !important;
+    background-color: #ccc;
+}
+
+/*.mod-exp-edit*/
+.mod-exp-edit{
+    display: none;
+    width: 392px;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+}
+.mod-exp-edit a{
+    color: #000;
+}
+.mod-exp-edit .header{
+    height: 38px;
+    line-height: 38px;
+    padding: 0 5px;
+    background-color: #ededed;
+
+}
+.mod-exp-edit .header .crumb{
+    padding-left: 10px;
+    font-size: 14px;
+}
+.mod-exp-edit .header .close{
+    float: right;
+    width: 28px;
+    height: 28px;
+    margin-top: 5px;
+    background: url("../../../img/close.png");
+}
+.mod-exp-edit .content{
+    padding: 10px 0;
+}
+.mod-exp-edit .row{
+    height: 26px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.mod-exp-edit .row .row-title{
+    float: left;
+    width: 80px;
+    height: 26px;
+    padding-right: 10px;
+    line-height: 26px;
+    text-align: right;
+}
+.mod-exp-edit .row input{
+    float: left;
+    width: 258px;
+    height: 24px;
+    padding: 0 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    line-height: 24px;
+}
+
+.mod-exp-edit .multi input{
+    width: 38px;
+    margin-right: 20px;
+}
+.mod-exp-edit .multi .row-content span{
+    float: left;
+    width: 47px;
+    height: 24px;
+    padding-right: 5px;
+    margin-right: -7px;
+    line-height: 24px;
+    text-align: center;
+    border: 1px solid #000;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+}
+
+.mod-exp-edit .period input{
+    width: 108px;
+}
+.mod-exp-edit .period .row-content span{
+    float: left;
+    width: 22px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.mod-exp-edit .tip,
+.mod-exp-edit .rule{
+    height: 64px;
+}
+.mod-exp-edit .row textarea{
+    float: left;
+    width: 258px;
+    height: 42px;
+    padding: 10px 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    line-height: 14px;
+}
+.mod-exp-edit .descr{
+    height: 92px;
+}
+.mod-exp-edit .descr textarea{
+    height: 70px;
+}
+.mod-exp-edit .btn{
+    display: inline-block;
+    width: 155px;
+    height: 38px;
+    margin: 0 0 10px 140px;
+    text-align: center;
+    line-height: 38px;
+    color: #fff;
+    border-radius: 19px;
+    background-color: #1fb2cd;
+    box-shadow: 0 2px 1px 1px #188ea2;
+    text-decoration: none;
+}
+.mod-exp-edit .btn:hover{
+    color: #fff !important;
+}
+
+

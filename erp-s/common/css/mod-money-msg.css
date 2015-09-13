@@ -1,0 +1,47 @@
+/*.mod-money-msg*/
+.mod-money-msg{
+    display: none;
+    width: 272px;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    padding-bottom: 10px;
+}
+.mod-money-msg .header{
+    height: 38px;
+    line-height: 38px;
+    padding: 0 10px;
+    background-color: #ededed;
+}
+.mod-money-msg .header .close{
+    float: right;
+    width: 28px;
+    height: 28px;
+    margin-top: 5px;
+    background: url("../../img/close.png");
+}
+.mod-money-msg textarea{
+    width: 256px;
+    height: 64px;
+    padding: 8px;
+    line-height: 16px;
+    border: none;
+}
+.mod-money-msg button{
+    float: right;
+    margin-right: 10px;
+    width: 78px;
+    height: 24px;
+    line-height: 24px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 2px 1px 1px #188ea2;
+    background-color: #29bcd7;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}

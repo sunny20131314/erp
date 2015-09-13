@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>场地设置</title>
+    <link rel="stylesheet" href="../../lib/css/reset.css"/>
+    <script src="../../lib/js/require.min.js"></script>
+
+    <!--日历的样式-->
+    <!--日历组件地址：http://plugins.jquery.com/pickadate/-->
+    <link rel="stylesheet" href="../../lib/datetimepicker/themes/classic.css"/>
+    <link rel="stylesheet" href="../../lib/datetimepicker/themes/classic.date.css"/>
+    <link rel="stylesheet" href="../../lib/datetimepicker/themes/classic.time.css"/>
+
+    <!--demo js-->
+    <script src="demo.js"></script>
+</head>
+<body>
+
+    <!--用来演示的 demo start-->
+    <button class="demo-place-edit">新增/修改场地</button>
+    <button class="demo-price-hour">设置价格（小时制）</button>
+    <button class="demo-price-ticket">设置价格（门票制）</button>
+    <!--用来演示的 demo end-->
+
+
+
+    <!--新增/修改场地 start-->
+    <link rel="stylesheet" href="mod-place-edit.css"/>
+    <div class="mod-place-edit">
+        <div class="header">
+            <span class="crumb">场地>>编辑</span>
+            <a class="close" href="#" ></a>
+        </div>
+        <div class="content">
+            <div class="row fd-clr name">
+                <span class="row-title">名&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;称</span>
+                <div class="row-content">
+                    <input type="text"/>
+                </div>
+            </div>
+            <div class="row fd-clr">
+                <span class="row-title">运动属性</span>
+                <div class="row-content">
+                    <div class="sel-wrap">
+                        <select>
+                            <option value="0">请选择运动类型</option>
+                            <option value="0">运动类型1</option>
+                            <option value="0">运动类型2</option>
+                        </select>
+                    </div>
+                    <div class="sel-wrap">
+                        <select>
+                            <option value="0">请选择运动项目</option>
+                            <option value="0">运动项目1</option>
+                            <option value="0">运动项目2</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row fd-clr period">
+                <span class="row-title">开放时间</span>
+                <div class="row-content">
+                    <input type="text" placeholder="起始时间" class="period-begin time-picker"/>
+                    <span>-</span>
+                    <input type="text" placeholder="结束时间" class="period-end time-picker"/>
+                </div>
+            </div>
+            <div class="row fd-clr radio places">
+                <span class="row-title">运动地点</span>
+                <div class="row-content">
+                    <span class="selected">室内</span>
+                    <span>室外</span>
+                </div>
+            </div>
+            <div class="row fd-clr radio charge">
+                <span class="row-title">收费方式</span>
+                <div class="row-content">
+                    <span class="hour selected">时段制</span>
+                    <span class="ticket">门票制</span>
+                    <input type="text" class="disabled" disabled="disabled" placeholder="最大容纳人数"/>
+                </div>
+            </div>
+            <div class="row fd-clr service">
+                <span class="row-title">场地服务</span>
+                <div class="row-content">
+                    <ul class="fd-clr">
+                        <li><input type="checkbox"/><span>停车停车</span></li>
+                        <li><input type="checkbox"/><span>停车停车</span></li>
+                        <li><input type="checkbox"/><span>停车停车</span></li>
+                        <li><input type="checkbox"/><span>停车停车</span></li>
+                        <li><input type="checkbox"/><span>停车停车</span></li>
+                        <li><input type="checkbox"/><span>停车停车</span></li>
+                        <li><input type="checkbox"/><span>停车停车</span></li>
+                        <li><input type="checkbox"/><span>停车停车</span></li>
+                        <li><input type="checkbox"/><span>停车停车</span></li>
+                        <li><input type="checkbox"/><span>停车停车</span></li>
+                        <li><input type="checkbox"/><span>停车停车</span></li>
+                        <li><input type="checkbox"/><span>停车停车</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row fd-clr">
+                <span class="row-title">备&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;注</span>
+                <div class="row-content">
+                    <textarea ></textarea>
+                </div>
+            </div>
+            <a href="#" class="btn">保存</a>
+        </div>
+    </div>
+    <!--新增/修改场地 end-->
+
+    <!--设置价格_门票制 start-->
+    <link rel="stylesheet" href="mod-price-ticket.css"/>
+    <div class="mod-price-ticket">
+        <div class="header">
+            <span class="crumb">场地>>设置价格(门票制)</span>
+            <a class="close" href="#" ></a>
+        </div>
+        <div class="content">
+            <div class="cards">
+                <ul class="fd-clr">
+                    <li>
+                        <div class="row no">
+                            <span><1></span>
+                        </div>
+                        <div class="row">
+                            <span class="row-title">场&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;次</span>
+                            <input type="text"/>
+                        </div>
+
+                        <div class="row">
+                            <span class="row-title">库存数量</span>
+                            <input type="text"/>
+                        </div>
+                        <div class="row small-row">
+                            <span class="row-title">挂&nbsp;&nbsp;牌&nbsp;&nbsp;价</span>
+                            <input type="text"/>
+                        </div>
+                        <div class="row small-row">
+                            <span class="row-title">优&nbsp;&nbsp;惠&nbsp;&nbsp;价</span>
+                            <input type="text"/>
+                        </div>
+                        <a href="#" class="minus"></a>
+                        <a href="#" class="plus"></a>
+                    </li>
+                    <li>
+                        <div class="row no">
+                            <span><2></span>
+                        </div>
+                        <div class="row">
+                            <span class="row-title">场&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;次</span>
+                            <input type="text"/>
+                        </div>
+
+                        <div class="row">
+                            <span class="row-title">库存数量</span>
+                            <input type="text"/>
+                        </div>
+                        <div class="row small-row">
+                            <span class="row-title">挂&nbsp;&nbsp;牌&nbsp;&nbsp;价</span>
+                            <input type="text"/>
+                        </div>
+                        <div class="row small-row">
+                            <span class="row-title">优&nbsp;&nbsp;惠&nbsp;&nbsp;价</span>
+                            <input type="text"/>
+                        </div>
+                        <a href="#" class="minus"></a>
+                        <a href="#" class="plus"></a>
+                    </li>
+                    <li>
+                        <div class="row no">
+                            <span><3></span>
+                        </div>
+                        <div class="row">
+                            <span class="row-title">场&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;次</span>
+                            <input type="text"/>
+                        </div>
+
+                        <div class="row">
+                            <span class="row-title">库存数量</span>
+                            <input type="text"/>
+                        </div>
+                        <div class="row small-row">
+                            <span class="row-title">挂&nbsp;&nbsp;牌&nbsp;&nbsp;价</span>
+                            <input type="text"/>
+                        </div>
+                        <div class="row small-row">
+                            <span class="row-title">优&nbsp;&nbsp;惠&nbsp;&nbsp;价</span>
+                            <input type="text"/>
+                        </div>
+                        <a href="#" class="minus"></a>
+                        <a href="#" class="plus"></a>
+                    </li>
+                </ul>
+            </div>
+            <a href="#" class="btn">提交</a>
+        </div>
+    </div>
+    <!--设置价格_门票制 end-->
+
+    <!--设置价格_小时制 start-->
+    <link rel="stylesheet" href="mod-price-hour.css"/>
+    <div class="mod-price-hour">
+        <div class="header">
+            <span class="crumb">场地>>设置价格(小时制)</span>
+            <a class="close" href="#" ></a>
+        </div>
+        <div class="content">
+            <div class="cards">
+                <ul class="fd-clr">
+                    <li class="item">
+                        <div class="row no">
+                            <span><1></span>
+                        </div>
+                        <div class="row">
+                            <span class="row-title">场地数量</span>
+                            <input type="text"/>
+                        </div>
+
+                        <div class="row">
+                            <span class="row-title">场地周期</span>
+                            <select class="prd-begin">
+                                <option value="1">周一</option>
+                                <option value="1">周二</option>
+                                <option value="1">周三</option>
+                            </select>
+                            <select class="prd-end">
+                                <option value="1">周一</option>
+                                <option value="1">周二</option>
+                                <option value="1">周三</option>
+                            </select>
+                        </div>
+
+                        <div class="row open-time">
+                            <span class="row-title">开放时间</span>
+                            <div class="row-content fd-clr">
+                                <input type="text" class="time-picker" placeholder="开始时间"/>
+                                <span class="divider">-</span>
+                                <input type="text" class="time-picker" placeholder="结束时间"/>
+                            </div>
+                        </div>
+
+                        <div class="row small-row">
+                            <span class="row-title">挂&nbsp;&nbsp;牌&nbsp;&nbsp;价</span>
+                            <input type="text"/>
+                        </div>
+                        <div class="row small-row">
+                            <span class="row-title">优&nbsp;&nbsp;惠&nbsp;&nbsp;价</span>
+                            <input type="text"/>
+                        </div>
+                        <a href="#" class="minus"></a>
+                        <a href="#" class="plus"></a>
+                    </li>
+                    <li class="item">
+                        <div class="row no">
+                            <span><2></span>
+                        </div>
+                        <div class="row">
+                            <span class="row-title">场地数量</span>
+                            <input type="text"/>
+                        </div>
+
+                        <div class="row">
+                            <span class="row-title">场地周期</span>
+                            <select class="prd-begin">
+                                <option value="1">周一</option>
+                                <option value="1">周二</option>
+                                <option value="1">周三</option>
+                            </select>
+                            <select class="prd-end">
+                                <option value="1">周一</option>
+                                <option value="1">周二</option>
+                                <option value="1">周三</option>
+                            </select>
+                        </div>
+
+                        <div class="row open-time">
+                            <span class="row-title">开放时间</span>
+                            <div class="row-content fd-clr">
+                                <input type="text" class="time-picker" placeholder="开始时间"/>
+                                <span class="divider">-</span>
+                                <input type="text" class="time-picker" placeholder="结束时间"/>
+                            </div>
+                        </div>
+
+                        <div class="row small-row">
+                            <span class="row-title">挂&nbsp;&nbsp;牌&nbsp;&nbsp;价</span>
+                            <input type="text"/>
+                        </div>
+                        <div class="row small-row">
+                            <span class="row-title">优&nbsp;&nbsp;惠&nbsp;&nbsp;价</span>
+                            <input type="text"/>
+                        </div>
+                        <a href="#" class="minus"></a>
+                        <a href="#" class="plus"></a>
+                    </li>
+                    <li class="item">
+                        <div class="row no">
+                            <span><3></span>
+                        </div>
+                        <div class="row">
+                            <span class="row-title">场地数量</span>
+                            <input type="text"/>
+                        </div>
+
+                        <div class="row">
+                            <span class="row-title">场地周期</span>
+                            <select class="prd-begin">
+                                <option value="1">周一</option>
+                                <option value="1">周二</option>
+                                <option value="1">周三</option>
+                            </select>
+                            <select class="prd-end">
+                                <option value="1">周一</option>
+                                <option value="1">周二</option>
+                                <option value="1">周三</option>
+                            </select>
+                        </div>
+
+                        <div class="row open-time">
+                            <span class="row-title">开放时间</span>
+                            <div class="row-content fd-clr">
+                                <input type="text" class="time-picker" placeholder="开始时间"/>
+                                <span class="divider">-</span>
+                                <input type="text" class="time-picker" placeholder="结束时间"/>
+                            </div>
+                        </div>
+
+                        <div class="row small-row">
+                            <span class="row-title">挂&nbsp;&nbsp;牌&nbsp;&nbsp;价</span>
+                            <input type="text"/>
+                        </div>
+                        <div class="row small-row">
+                            <span class="row-title">优&nbsp;&nbsp;惠&nbsp;&nbsp;价</span>
+                            <input type="text"/>
+                        </div>
+                        <a href="#" class="minus"></a>
+                        <a href="#" class="plus"></a>
+                    </li>
+                </ul>
+            </div>
+            <a href="#" class="btn">提交</a>
+        </div>
+    </div>
+    <!--设置价格_小时制 end-->
+
+</body>
+</html>

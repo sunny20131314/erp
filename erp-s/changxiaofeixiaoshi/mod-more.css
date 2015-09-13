@@ -1,0 +1,82 @@
+/*   more  */
+.mod-more{
+    display: none;
+    width:518px ;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 7px;
+    overflow: hidden;
+}
+.mod-more .header{
+    height: 38px;
+    line-height: 38px;
+    padding: 0 5px;
+    background-color: #ededed;
+}
+.mod-more .header .crumb{
+    padding-left:10px ;
+}
+.mod-more .header .type{
+    margin-left: 18px;
+}
+.mod-more .header .place-num{
+    border: none;
+    height: 24px;
+    background-color: #ededed;
+}
+.mod-more .header .hand-card{
+    margin-left: 40px;
+    height: 24px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.mod-more .header .close{
+    float: right;
+    float: right;
+    width: 28px;
+    height: 28px;
+    margin-top: 5px;
+    background: url("../img/close.png");
+}
+.mod-more .content{
+    padding: 17px 26px 24px 14px;
+}
+.mod-more .content .area{
+    height: 26px;
+    line-height: 26px;
+    margin-bottom: 12px;
+}
+.mod-more .content .area .label {
+    width: 130px;
+    display: inline-block;
+}
+.mod-more .content .area .place{
+    width: 253px;
+    height: 26px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.mod-more .content .area .change-place,
+.mod-more .content .exit .return-place{
+    float: right;
+    width:72px ;
+    height: 24px;
+    line-height: 24px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 2px 1px 1px #188ea2;
+    background-color: #29bcd7;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+.mod-more .content .exit{
+    height: 26px;
+    line-height:24px;
+}
+.mod-more .content .exit .tips  {
+    color: #b3b3b3;
+}
+

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>显示商品库存情况</title>
+    <link rel="stylesheet" href="../../lib/css/reset.css"/>
+    <script src="../../lib/js/require.min.js"></script>
+    <script src="./demo.js"></script>
+
+</head>
+<body>
+    <!--demo start-->
+    <button class="demo-ku">显示库存</button>
+    <button class="demo-pandian">显示盘点</button>
+    <!--demo end-->
+
+
+    <!--ku start-->
+    <link rel="stylesheet" href="./mod-ku.css"/>
+    <div class="mod-ku">
+        <div class="header">
+            <span class="crumb">商品>></span>
+            <select name="ku-list" class="ku-list">
+                <option value="1" >入库</option>
+                <option value="2">盘点</option>
+            </select>
+            <a href="#" class="close"></a>
+        </div>
+        <div class="content">
+            <div class="name fd-clr">
+                <span>商品名称</span>
+                <input type="text" value="红牛功能饮料250ml"/>
+            </div>
+            <div class="left-num fd-clr">
+                <span>剩余数量</span>
+                <div class="input">
+                    <input type="text" value="35瓶"/>
+                    <span>警戒数量</span>
+                </div>
+                <a href="#" class="inventory">清单</a>
+            </div>
+            <div class="put-num fd-clr">
+                <span>入库数量</span>
+                <input type="text"/>
+                <a href="#" class="btn">保存</a>
+            </div>
+        </div>
+    </div>
+
+    <!--ku end-->
+
+    <!--清单弹层-->
+    <div class="mod-commodity-detail">
+        <div class="header">
+            <a class="close" href="#" ></a>
+        </div>
+        <div class="content">
+            <div class="consume-list">
+                <div class="title">
+                    <span class="item">内容</span>
+                    <span class="time">时间</span>
+                    <span class="name">操作人</span>
+                    <span class="left-num">剩余数量</span>
+                </div>
+                <ul>
+                    <li>
+                        <span class="item">入库200瓶</span>
+                        <span class="time">2015.5.1 15：00</span>
+                        <span class="name">王小虎</span>
+                        <span class="left-num">300</span>
+                    </li>
+                    <li>
+                        <span class="item">盘点</span>
+                        <span class="time">2015.5.1 15：00</span>
+                        <span class="name">王小虎</span>
+                        <span class="left-num">300</span>
+                    </li>
+                    <li>
+                        <span class="item">盘点</span>
+                        <span class="time">2015.5.1 15：00</span>
+                        <span class="name">王小虎</span>
+                        <span class="left-num">300</span>
+                    </li>
+                    <li>
+                        <span class="item">盘点</span>
+                        <span class="time">2015.5.1 15：00</span>
+                        <span class="name">王小虎</span>
+                        <span class="left-num">300</span>
+                    </li>
+                    <li>
+                        <span class="item">盘点</span>
+                        <span class="time">2015.5.1 15：00</span>
+                        <span class="name">王小虎</span>
+                        <span class="left-num">300</span>
+                    </li>
+                    <li>
+                        <span class="item">盘点</span>
+                        <span class="time">2015.5.1 15：00</span>
+                        <span class="name">王小虎</span>
+                        <span class="left-num">300</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

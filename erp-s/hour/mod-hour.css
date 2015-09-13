@@ -1,0 +1,236 @@
+.mod-hour{
+    width:1002px;
+    height:auto;
+    margin:0 auto;
+    overflow: hidden;
+    background-color: #fff;
+    color:#323232;
+}
+.mod-hour .header{
+    height:42px;
+    width:1002px;
+    line-height:42px;
+    background-color:#eeeeef;
+}
+.mod-hour .header .sport-item{
+    float:left;
+    margin-left:20px;
+}
+.mod-hour .header .sport-item select{
+    height:24px;
+    width:95px;
+    margin-left:12px;
+    border:1px solid #999999;
+}
+.mod-hour .header .set{
+    float:right;
+    margin-right:10px;
+}
+.mod-hour .header .set>span{
+    margin-right:30px;
+}
+.mod-hour .header .set>span span{
+    cursor:pointer;
+}
+.mod-hour .header .set button{
+    width:78px;
+    height:24px;
+    background-color:#fff;
+    border-radius:4px;
+    border-width: 1px;
+    cursor:pointer;
+}
+.mod-hour .content{
+    width:980px;
+    height: auto;
+    border:1px solid #999;
+    border-top:none;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding:0 10px;
+}
+.mod-hour .content .week{
+    margin:0 auto;
+    width:728px;
+    height:36px;
+}
+.mod-hour .content .week li{
+    float:left;
+    width:79px;
+    height:26px;
+    line-height: 26px;
+    text-align:center;
+    margin-right:12px;
+    margin-top:5px;
+    background-color:#000000;
+    color:#fff;
+    border-radius:4px;
+    cursor: pointer;
+}
+.mod-hour .content .week .selected{
+    background-color: #989898;
+}
+.mod-hour .content .title-header{
+    width:980px;
+    height:40px;
+    line-height:40px;
+    background-color:#ececec;
+}
+.mod-hour .title-header .width{
+    float:left;
+    width:66px;
+    height:40px;
+    margin-right:20px;
+    background: url(../img/slant.png);
+    background-size:auto;
+}
+.mod-hour .title-header .width .place{
+    float:left;
+    margin-left:5px;
+    margin-top:5px;
+}
+.mod-hour .title-header .width .time{
+    float:left;
+    margin-top:-10px;
+    margin-left:5px;
+}
+.mod-hour .title-header .less{
+    float:left;
+    font-weight:bold;
+    font-size:14px;
+    width:66px;
+    height:40px;
+    text-align:center;
+}
+.mod-hour .content .place-time{
+    width:980px;
+    height:400px;
+    overflow-y:scroll;
+}
+.mod-hour .place-time .width{
+    float:left;
+    width:66px;
+    height:40px;
+    line-height: 40px;
+    padding-left:20px;
+    font-size:16px;
+}
+.mod-hour .place-time .less{
+    float:left;
+    width:66px;
+    height:28px;
+    line-height: 28px;
+    text-align:center;
+    border:1px solid #ececec;
+    margin-left:-1px;
+    margin-top:6px;
+    cursor:pointer;
+}
+.mod-hour .place-time .selected{
+    background-color: #999;
+}
+.mod-hour .place-time .select{
+    background: url(../img/u443.png) no-repeat 25px 4px;
+}
+.mod-hour .content .place-time>li:nth-child(2n){
+    background-color: #ececec;
+}
+.mod-hour .content .place-time>li:nth-child(2n) li{
+    border-color:#fff;
+}
+
+/*package start*/
+.mod-package{
+    display: none;
+    width:345px;
+    height:auto;
+    padding:10px 5px 20px 10px;
+    margin:0 auto;
+    border:1px solid #999;
+    border-radius: 4px;
+    background-color: #fff;
+}
+.mod-package .header{
+    width:345px;
+    height:25px;
+    line-height:25px;
+    font-size:14px;
+}
+.mod-package .header a{
+    float:right;
+    margin-left:8px;
+}
+.mod-package .content{
+    width:162px;
+    height:auto;
+    margin:8px auto 0;
+}
+.mod-package .content .set-time{
+    width:162px;
+    height:auto;
+    margin:10px 0;
+    padding:6px 0;
+    border-top:1px solid #999;
+    border-bottom:1px solid #999;
+}
+.mod-package .content>div{
+    width:162px;
+    text-align: center;
+}
+.mod-package .footer{
+    width:162px;
+    height:auto;
+    margin:0 auto;
+    text-align: center;
+}
+
+/*price start*/
+.mod-price{
+    display: none;
+    width:345px;
+    height:auto;
+    padding:10px 5px 20px 10px;
+    margin:0 auto;
+    border:1px solid #999;
+    border-radius: 4px;
+    background-color: #fff;
+}
+.mod-price .header{
+    width:345px;
+    height:25px;
+    line-height:25px;
+    font-size:14px;
+}
+.mod-price .header a{
+    float:right;
+    margin-left:8px;
+}
+.mod-price .content{
+    width:242px;
+    height:auto;
+    margin:8px auto 0;
+    text-align: center;
+}
+.mod-price .content span{
+    float: left;
+    width:50px;
+    height:30px;
+    line-height: 30px;
+}
+.mod-price .content input{
+    float:right;
+    width:150px;
+    height:30px;
+    line-height: 30px;
+    padding:0 10px;
+    border:1px solid #000;
+}
+.mod-price .content .online{
+    margin-bottom: 17px;
+}
+
+
+
+
+
+

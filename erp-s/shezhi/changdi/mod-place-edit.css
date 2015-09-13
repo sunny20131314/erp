@@ -1,0 +1,144 @@
+/*.mod-place-edit*/
+.mod-place-edit{
+    display: none;
+    width: 450px;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+}
+.mod-place-edit a{
+    color: #000;
+}
+.mod-place-edit .header{
+    height: 38px;
+    line-height: 38px;
+    padding: 0 5px;
+    background-color: #ededed;
+
+}
+.mod-place-edit .header .crumb{
+    padding-left: 10px;
+    font-size: 14px;
+}
+.mod-place-edit .header .close{
+    float: right;
+    width: 28px;
+    height: 28px;
+    margin-top: 5px;
+    background: url("../../img/close.png");
+}
+.mod-place-edit .content{
+    padding: 15px 0 22px;
+}
+.mod-place-edit .row{
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.mod-place-edit .row .row-title{
+    float: left;
+    width: 102px;
+    height: 32px;
+    padding-right: 10px;
+    line-height: 32px;
+    text-align: right;
+}
+.mod-place-edit .row .row-content{
+    float: left;
+    width: 338px;
+}
+.mod-place-edit .name input,
+.mod-place-edit .period input,
+.mod-place-edit .radio input,
+.mod-place-edit .row select{
+    float: left;
+    width: 106px;
+    height: 30px;
+    padding: 0 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    line-height: 30px;
+}
+.mod-place-edit .name input{
+    width: 258px;
+}
+.mod-place-edit .row select{
+    box-sizing: border-box;
+    width: 128px;
+    height: 32px;
+    margin-right: 22px;
+}
+.mod-place-edit .period .row-content span{
+    float: left;
+    width: 22px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+}
+.mod-place-edit .row textarea{
+    float: left;
+    width: 258px;
+    height: 42px;
+    padding: 10px 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    line-height: 14px;
+}
+.mod-place-edit .radio .row-content span{
+    float: left;
+    width: 58px;
+    height: 30px;
+    border: 1px solid #000;
+    margin-right: 10px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+.mod-place-edit .radio .row-content span.selected{
+    background-color: #e1e1e1;
+}
+.mod-place-edit .radio input{
+    float: right;
+    margin-right: 58px;
+}
+.mod-place-edit .radio input.disabled{
+    border: 1px solid #ccc;
+}
+.mod-place-edit .service ul{
+    width: 278px;
+    padding: 10px 0;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.mod-place-edit .service li{
+    float: left;
+    width: 74px;
+    height: 24px;
+    padding-left: 18px;
+    text-align: left;
+    line-height: 22px;
+}
+.mod-place-edit .service li span{
+    padding-left: 5px;
+}
+.mod-place-edit .btn{
+    display: inline-block;
+    width: 155px;
+    height: 38px;
+    margin: 0 0 10px 140px;
+    text-align: center;
+    line-height: 38px;
+    color: #fff;
+    border-radius: 19px;
+    background-color: #1fb2cd;
+    box-shadow: 0 2px 1px 1px #188ea2;
+    text-decoration: none;
+}
+.mod-place-edit .btn:hover{
+    color: #fff !important;
+}
+
+
+

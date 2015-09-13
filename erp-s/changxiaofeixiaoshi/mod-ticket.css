@@ -1,0 +1,188 @@
+/*   ticket  */
+.mod-ticket{
+    display: none;
+    width: 516px;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 7px;
+    overflow: hidden;
+}
+.mod-ticket .header{
+    height: 38px;
+    line-height: 38px;
+    padding: 0 5px;
+    background-color: #ededed;
+}
+.mod-ticket .header .crumb{
+    padding-left: 10px;
+}
+.mod-ticket .header .type{
+    padding-left: 20px;
+}
+.mod-ticket .header .place-num{
+    border: none;
+    height: 24px;
+    background-color: #ededed;
+}
+.mod-ticket .header .hand-card{
+    margin-left: 45px;
+    height: 24px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.mod-ticket .header .close{
+    float: right;
+    width: 28px;
+    height: 28px;
+    margin-top: 5px;
+    background: url("../img/close.png");
+}
+.mod-ticket .content{
+    width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.mod-ticket .content .scan{
+    width: 272px;
+    height: 17px;
+    padding: 7px;
+    margin: 17px auto 0 56px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.mod-ticket .scan input{
+    float: left;
+    width: 255px;
+    height: 17px;
+    line-height: 17px;
+    border: none;
+}
+.mod-ticket .scan button{
+    float: left;
+    width: 17px;
+    height: 17px;
+    background: url("../img/search.png");
+    border: none;
+}
+.mod-ticket .tips{
+    display: block;
+    color:#188ea2;
+    width: 400px;
+    text-align: center;
+    height:28px;
+    line-height: 28px;
+    font-size: 16px;
+}
+.mod-ticket .content .info{
+    width: 400px;
+    margin-bottom: 18px;
+    border-radius: 5px ;
+    overflow: hidden;
+}
+.mod-ticket .content .txt-info li{
+    width: 400px;
+    float: left;
+    height: 42px;
+    line-height: 42px;
+    margin-bottom: 1px;
+    background-color: #ededed;
+}
+.mod-ticket .txt-info li span{
+    display: inline-block;
+}
+.mod-ticket .content .txt-info .title{
+    width: 70px;
+    text-align: right;
+    margin-right: 26px;
+}
+.mod-ticket  .txt-info .money .value{
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff6b00;
+}
+.mod-ticket .content .time{
+    width: 400px;
+    height:93px;
+    margin-bottom: 18px;
+    overflow: hidden;
+}
+.mod-ticket .content .time-list li{
+    width: 99px;
+    height: 30px;
+    overflow:hidden;
+    line-height: 30px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    color: #000;
+    background-color: #ededed;
+    float: left;
+    text-align: center;
+    cursor:pointer;
+}
+.mod-ticket .content .time-list .selected{
+    background-color: #29bcd7;
+    color: #fff;
+}
+.mod-ticket .content .input{
+    width: 200px;
+    height: 32px;
+    line-height: 32px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.mod-ticket .content .input input{
+    border: none;
+    width: 200px;
+}
+.mod-ticket .footer {
+    margin:0 auto;
+    height: 24px;
+    padding:0 80px 32px 80px;
+}
+.mod-ticket .footer span{
+    display: inline-block;
+    float: left;
+}
+.mod-ticket .footer .money{
+    color: #ff6b00;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    margin-left:20px;
+}
+.mod-ticket .footer input{
+    color: #ff6b00;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    width: 110px;
+    float: left;
+}
+.mod-ticket .footer .edit{
+    background:url("../img/edit.png");
+    margin-top: -5px;
+    width: 29px;
+    height: 27px;
+    display: inline-block;
+}
+.mod-ticket .footer .start{
+    float: right;
+    width: 68px;
+    height: 24px;
+    line-height: 24px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 2px 1px 1px #188ea2;
+    background-color: #29bcd7;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 42px;
+    margin-top: -3px;
+}
